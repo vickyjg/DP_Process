@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+
+   {% include head.html %}
+    
+    <body>
+        
+        {% include top-navigation.html %}
+        
+        
+        <h1 class="project-title">{{ page.title }}</h1>
+        
+        <h2 class="project-type">{{ page.type }}</h2>
+        
+        <p class="project-description">{{ page.description-1 }}</p>
+        
+        {% if page.splash-image %}{% include post-featured-image.html image=page.splash-image alt=page.featured-image-alt %}{% endif %}
+        
+<!--        <img class="splash-image" src=" %{{ page.splash-image }}% " >-->
+        
+<!--
+         call the featured-post-image.html template file 
+        {% if page.featured-image %}{% include post-featured-image.html image=page.featured-image alt=page.featured-image-alt %}{% endif %}
+-->
+
+        
+        <p class="project-description-2">{{ page.description-2 }}</p>
+           
+           
+<!--        {{ content }}-->
+    
+    </body>
+
+    
+
+</html>
+

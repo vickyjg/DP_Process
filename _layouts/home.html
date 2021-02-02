@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+
+    {% include head.html %}
+    
+    <body>
+        
+        {% include top-navigation.html %}
+        
+        
+        
+        <h1 class="site-title"> Our Lives, Data-fied </h1>
+        <p class="subhead"> Process for degree project on data and self-discovery. Read the proposal here </p>
+        
+        {% include dashboard.html %}
+          
+        
+        <div class="work">
+            <h2>Logs</h2>
+            
+            {% for post in site.posts limit:10 %}
+            
+                <article class="project">
+                    
+                    <!-- call the featured-post-image.html template file -->
+                    
+                    <a href="{{ post.url | prepend: site.baseurl }}">
+                        {% if post.featured-image %}{% include post-featured-image.html image=post.featured-image alt=post.featured-image-alt %}{% endif %}
+                    </a>
+                    
+                    <cap class="proj-caption">
+                        
+                        <h3>
+                          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                        </h3>
+                    
+                        <p class="proj-type">{{ post.type }}</p>
+                    </cap>
+                    
+                    <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> 
+                    
+                    {% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %} -->
+                    
+                </article>   
+            {% endfor %}
+            
+            
+        </div>
+        
+        
+        
+        
+    
+    </body>
+
+    
+
+</html>
+
