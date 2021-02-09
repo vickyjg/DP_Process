@@ -57,6 +57,14 @@ table {
 
 ---
 
+/* SASS Variables */
+$primary-font: 'Archivo';
+$secondary-font: 'EB Garamond';
+$tertiary-font: 'Space Mono';
+
+$page-side-margin: 200px;
+
+
 
 /* @import "main"; */
 
@@ -69,24 +77,26 @@ table {
 
 body{
     background-color: #ECE5F0;
-    font-family: 'Archivo', sans-serif;
+    font-family: $primary-font, sans-serif;
     color: #0D0630;
     
 }
 
 
 nav{
-    margin-top: 30px;
-    margin-bottom: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
+    padding-top: 10px;
+    /* padding-bottom: 0px; */
+    margin-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-bottom: 1px solid #0D0630;
 }
 
 #content-wrapper{
    
     margin-bottom: 50px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: $page-side-margin;
+    margin-right: $page-side-margin;
 }
 
 p{
@@ -126,10 +136,26 @@ img{
 }
 
 a.site-logo {
-    font-family: 'Space Mono', monospace;
-    font-size: 72px;
+    font-family: $tertiary-font, monospace;
+    font-size: 48px;
     color: #3F3862;
 }
+
+h1.site-title {
+    margin: 0px;
+    /* width: 100%; */
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+p.subhead{
+    margin-top: 0px;
+    font-family: $secondary-font, serif;
+    font-size: 18px;
+    
+} 
+
 
 
 /* site navigation */
@@ -159,27 +185,15 @@ nav{
 
 
 
+
+
+
+
 /* HOME PAGE */
-
-h1.site-title {
-    margin: 0px;
-    /* width: 100%; */
-    font-size: 36px;
-    font-weight: bold;
-    
-}
-
-p.subhead{
-    margin-top: 0px;
-    font-family: 'EB Garamond', serif;
-    font-size: 18px;
-    
-} 
-
 
 #update-date {
     margin-top: 6px;
-    font-family: 'EB Garamond', serif;
+    font-family: $secondary-font, serif;
     font-size: 16px;
     
 }
@@ -209,7 +223,7 @@ div.data-summary{
 p.data-block-value {
     margin-top: 0px;
     margin-bottom: 0px;
-    font-family: 'Space Mono', monospace;
+    font-family: $tertiary-font, monospace;
     font-weight: bold;
     font-size: 36px;
     
@@ -279,7 +293,7 @@ div#project-top-row{
     grid-gap: 30px;
     padding-top: 20px;
     padding-bottom: 10px;
-    font-family: 'EB Garamond', serif;
+    font-family: $secondary-font, serif;
     font-style: italic;
     
 }
@@ -304,30 +318,98 @@ article.project{
 
 p.proj-week{
     margin: 0px;
-    font-family: 'Space Mono', monospace;
+    font-family: $tertiary-font, monospace;
     font-weight: normal;
     font-size: 24px;
 }
 
-img.feat-img {
-    vertical-align: middle;
-    width: 100%;
-}
+
 
 h3{
     
 }
 
-p.proj-type{
-    font-family: 'EB Garamond', serif;
+p.proj-subhead{
+    font-family: $secondary-font, serif;
 }
 
 
 
+/* PROJECT page */
+
+div#project-article-top-row{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    
+}
+
+p.article-top-row-text {
+    font-family: $secondary-font, serif;
+    font-style: italic;
+}
+
+p.article-top-row-data{
+    font-family: $tertiary-font, monospace;
+    font-size: 16px;
+    
+}
+
+img.thumbnail-feat-img{
+    height: 96px; 
+    object-fit: cover;
+}
+
+h1.project-title{
+    margin-top: 36px;
+    margin-bottom: 0px;
+    font-size: 36px;
+    
+}
+
+h2.project-subhead{
+    font-family: $secondary-font, serif;
+    font-size: 18px;
+    
+}
+
+img.feat-img{
+    margin-top: 24px;
+    margin-bottom: 36px;
+    height: 360px;
+    
+}
+
+div.article-under-image{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    
+}
+
+section.article-content{
+}
+
+
+p.project-description{
+    font-family: $primary-font, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+@media only screen and (max-width: 992px) {   
+
+    #content-wrapper{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    
+        
+}
+
 
 
 @media only screen and (max-width: 768px) {
-  /* For mobile phones: */
+  /* For tablets */
     .welcome-msg {
         width: 100%;
     }
@@ -342,26 +424,18 @@ p.proj-type{
         flex: 100%;
         max-width: 100%;
     }
-    
-    
-    
-    img.feat-img {
-        height:300px;
-        width: 100%;
-    }
 
-    
-}
-
-
-
-@media only screen and (max-width: 768px) {
-  /* For tablets: */   
 
     #content-wrapper{
         margin-bottom: 50px;
         margin-left: 50px;
         margin-right: 50px;
+    }
+    
+    div.data-summary {
+        margin-top : 60px;
+        display : grid;
+        grid-row-gap : 16px;
     }
     
 }

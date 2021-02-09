@@ -33,7 +33,7 @@
                             <p class="proj-week">{{ post.week }}</p>
 
                             <a href="{{ post.url | prepend: site.baseurl }}" >
-                                {% if post.featured-image %}{% include post-featured-image.html image=post.featured-image alt=post.featured-image-alt %}{% endif %}
+                                {% if post.featured-image %}{% include thumbnail-featured-image.html image=post.featured-image alt=post.featured-image-alt %}{% endif %}
                             </a>
 
                             <cap class="proj-caption">
@@ -42,7 +42,7 @@
                                   <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                                 </h2>
 
-                                <p class="proj-type">{{ post.type }}</p>
+                                <p class="proj-subhead">{{ post.subhead }}</p>
                             </cap>
 
                             <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> 
@@ -60,6 +60,7 @@
         
         
         
+        <script src="{{ "/assets/index.js" | relative_url }}"></script>
     
     </body>
 

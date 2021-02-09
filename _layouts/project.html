@@ -7,27 +7,62 @@
         
         {% include top-navigation.html %}
         
-        
-        <h1 class="project-title">{{ page.title }}</h1>
-        
-        <h2 class="project-type">{{ page.type }}</h2>
-        
-        <p class="project-description">{{ page.description-1 }}</p>
-        
-        {% if page.splash-image %}{% include post-featured-image.html image=page.splash-image alt=page.featured-image-alt %}{% endif %}
-        
-<!--        <img class="splash-image" src=" %{{ page.splash-image }}% " >-->
-        
-<!--
-         call the featured-post-image.html template file 
-        {% if page.featured-image %}{% include post-featured-image.html image=page.featured-image alt=page.featured-image-alt %}{% endif %}
--->
+        <div id="content-wrapper">
+            
+            <div id="project-article-top-row">
+                
+                <section>
+                    <p class=article-top-row-text>week</p>
 
-        
-        <p class="project-description-2">{{ page.description-2 }}</p>
-           
-           
-<!--        {{ content }}-->
+                    <p class="article-top-row-data">{{     page.week }}</p>  
+                </section>
+                
+                <section>
+                    <p class=article-top-row-text>published</p>
+    
+                    <p class="article-top-row-data">{{ page.written-date }}</p>
+                </section>
+                
+                
+            </div>
+            
+            
+            <h1 class="project-title">{{ page.title }}</h1>
+
+            <h2 class="project-subhead">{{ page.subhead }}</h2>
+
+            
+            {% if page.splash-image %}{% include post-featured-image.html image=page.splash-image alt=page.featured-image-alt %}{% endif %}
+
+    <!--        <img class="splash-image" src=" %{{ page.splash-image }}% " >-->
+
+    <!--
+             call the featured-post-image.html template file 
+            {% if page.featured-image %}{% include post-featured-image.html image=page.featured-image alt=page.featured-image-alt %}{% endif %}
+    -->
+            
+            
+            <div class="article-under-image">
+                
+                <section class="sidebar-info">
+                </section>
+                
+                <section class="article-content">
+                    <p class="project-description">{{ page.description-1 }}</p>
+
+                    <p class="project-  description-2">{{ page.description-2 }}</p>
+                
+                </section>
+                
+                
+               
+            
+            
+            </div>
+
+
+    <!--        {{ content }}-->
+        </div>
     
     </body>
 
