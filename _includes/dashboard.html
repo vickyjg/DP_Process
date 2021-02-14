@@ -1,17 +1,17 @@
 <div class="dashboard">
     
     <h2>Progress</h2>
-    <p id="update-date">Last updated February 21, 2021 9:29pm</p>
+    <p id="update-date">Last updated {{ page.update-date }}</p>
     
         <div class="data-summary">
     
             <section class="data-block">
-                <p class="data-block-value">08</p>
+                <p class="data-block-value">{{ page.hours }}</p>
                 <p class="data-block-unit">hours invested</p>
             </section>
 
             <section class="data-block">
-                <p class="data-block-value">01</p>
+                <p class="data-block-value">{{ page.tea }}</p>
                 <p class="data-block-unit">cups of tea consumed</p>
             </section>
 
@@ -21,7 +21,7 @@
             </section>
             
             <section class="data-block">
-                <p class="data-block-value">😬</p>
+                <p class="data-block-value">{{ page.mood }}</p>
                 <p class="data-block-unit">mood</p>
             </section>
 
@@ -33,7 +33,7 @@
                   <div class="bar">
                     <div class="color"></div>
                   </div>
-                  <div class="percent">10% Complete</div>
+                  <div class="percent">{{ page.percent }} Complete</div>
                 </div>
             </div>
         </div>

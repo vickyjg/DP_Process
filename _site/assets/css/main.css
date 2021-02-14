@@ -3,7 +3,7 @@
 /* UNIVERSAL */
 * { box-sizing: border-box; }
 
-body { background-color: #ECE5F0; font-family: "Archivo", sans-serif; color: #0D0630; }
+body { background-color: #ECE5F0; font-family: "Space Grotesk", sans-serif; color: #0D0630; }
 
 nav { padding-top: 10px; /* padding-bottom: 0px; */ margin-bottom: 20px; padding-left: 50px; padding-right: 50px; border-bottom: 1px solid #0D0630; }
 
@@ -12,6 +12,10 @@ nav { padding-top: 10px; /* padding-bottom: 0px; */ margin-bottom: 20px; padding
 p { margin: 0px; }
 
 a { text-decoration: none; color: #0D0630; }
+
+a.inline-link { text-decoration: underline; }
+
+a.inline-link:hover { text-decoration: underline; color: #907AD6; }
 
 img { object-fit: cover; }
 
@@ -57,7 +61,7 @@ div#progress-bar { margin-top: 50px; }
 
 .bar { height: 100%; width: 100%; background: #ECE5F0; flex: 1; }
 
-.color { height: 100%; width: 10%; /* Change progress % here */ background: #907AD6; animation: 3s ease-out 0s 1 expand; }
+.color { height: 100%; width: 11%; /* Change progress % here */ background: #907AD6; animation: 3s ease-out 0s 1 expand; }
 
 .percent { min-width: 20px; font-size: 20px; display: flex; margin-left: 15px; align-items: center; font-weight: 700; }
 
@@ -91,11 +95,15 @@ h1.project-title { margin-top: 36px; margin-bottom: 0px; font-size: 36px; }
 
 h2.project-subhead { font-family: "EB Garamond", serif; font-size: 18px; }
 
-img.feat-img { margin-top: 24px; margin-bottom: 36px; height: 360px; }
+img.feat-img { margin-top: 24px; margin-bottom: 6px; height: 360px; width: 100%; }
+
+figcaption.feat-img-caption { font-family: "EB Garamond", serif; font-size: 16px; font-style: italic; color: #3F3862; margin-bottom: 36px; }
 
 div.article-under-image { display: grid; grid-template-columns: 2fr 3fr; }
 
-p.project-description { font-family: "Archivo", sans-serif; font-size: 16px; line-height: 20px; }
+p.article-paragraph { font-family: "Space Grotesk", sans-serif; font-size: 16px; line-height: 24px; padding-bottom: 24px; }
+
+q.article-quote { font-family: "Space Grotesk", sans-serif; font-size: 24px; line-height: 30px; margin-bottom: 36px; }
 
 @media only screen and (max-width: 992px) { #content-wrapper { margin-left: 100px; margin-right: 100px; } }
 
