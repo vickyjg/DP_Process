@@ -1,4 +1,5 @@
 /* SASS Variables */
+/* for text */
 /* @import "main"; */
 /* UNIVERSAL */
 * { box-sizing: border-box; }
@@ -9,9 +10,13 @@ nav { padding-top: 10px; /* padding-bottom: 0px; */ margin-bottom: 20px; padding
 
 #content-wrapper { margin-bottom: 50px; margin-left: 200px; margin-right: 200px; }
 
+footer { margin-top: 64px; padding: 16px; display: flex; justify-content: center; font-size: 13px; }
+
 p { margin: 0px; }
 
 a { text-decoration: none; color: #0D0630; }
+
+a:hover { color: #907AD6; }
 
 a.inline-link { text-decoration: underline; }
 
@@ -48,7 +53,7 @@ div.dashboard { margin-top: 30px; padding: 50px; border-radius: 15px; background
 
 div.data-summary { margin-top: 60px; display: flex; justify-content: space-between; }
 
-p.data-block-value { margin-top: 0px; margin-bottom: 0px; font-family: "Space Mono", monospace; font-weight: bold; font-size: 36px; }
+p.data-block-value { margin-top: 0px; margin-bottom: 0px; font-family: "Space Mono", monospace; font-weight: bold; font-size: 28px; }
 
 p.data-block-unit { margin-top: 0px; margin-bottom: 0px; }
 
@@ -61,7 +66,7 @@ div#progress-bar { margin-top: 50px; }
 
 .bar { height: 100%; width: 100%; background: #ECE5F0; flex: 1; }
 
-.color { height: 100%; width: 11%; /* Change progress % here */ background: #907AD6; animation: 3s ease-out 0s 1 expand; }
+.color { height: 100%; width: 30%; /* Change progress % here */ background: #907AD6; animation: 3s ease-out 0s 1 expand; }
 
 .percent { min-width: 20px; font-size: 20px; display: flex; margin-left: 15px; align-items: center; font-weight: 700; }
 
@@ -83,6 +88,8 @@ p.proj-week { margin: 0px; font-family: "Space Mono", monospace; font-weight: no
 p.proj-subhead { font-family: "EB Garamond", serif; }
 
 /* PROJECT page */
+section.blank-space { margin: 72px; }
+
 div#project-article-top-row { display: grid; grid-template-columns: 1fr 2fr 2fr; }
 
 p.article-top-row-text { font-family: "EB Garamond", serif; font-style: italic; }

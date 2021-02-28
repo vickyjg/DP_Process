@@ -32,7 +32,7 @@
             <h2 class="project-subhead">{{ page.subhead }}</h2>
 
             
-            {% if page.splash-image %}{% include post-featured-image.html image=page.splash-image alt=page.featured-image-alt %}{% endif %}
+            {% if page.splash-image %}{% include post-featured-image.html image=page.splash-image alt=page.featured-image-alt %}{% else %}{% include blank-space.html %}{% endif %}
 
     <!--        <img class="splash-image" src=" %{{ page.splash-image }}% " >-->
 
@@ -45,6 +45,8 @@
             <div class="article-under-image">
                 
                 <section class="sidebar-info">
+                    <h3>Summary</h3>
+                        <p>{{ page.summary }}</p>
                     <h3>Tasks</h3>
                     <ul>
                         <li>{{ page.list-item-1 }}</li>
@@ -68,6 +70,8 @@
 
 
         </div>
+        
+        {% include footer.html %}
     
     </body>
 

@@ -62,8 +62,11 @@ $primary-font: 'Space Grotesk';
 $secondary-font: 'EB Garamond';
 $tertiary-font: 'Space Mono';
 
+$primary-color: #0D0630; /* for text */
+$secondary-color: #907AD6;
+
 $page-side-margin: 200px;
-$percent: 11%;
+$percent: 30%;
 
 
 /* @import "main"; */
@@ -78,7 +81,7 @@ $percent: 11%;
 body{
     background-color: #ECE5F0;
     font-family: $primary-font, sans-serif;
-    color: #0D0630;
+    color: $primary-color;
     
 }
 
@@ -89,7 +92,7 @@ nav{
     margin-bottom: 20px;
     padding-left: 50px;
     padding-right: 50px;
-    border-bottom: 1px solid #0D0630;
+    border-bottom: 1px solid $primary-color;
 }
 
 #content-wrapper{
@@ -99,13 +102,28 @@ nav{
     margin-right: $page-side-margin;
 }
 
+
+footer{
+    margin-top: 64px;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    
+}
+
+
 p{
     margin: 0px;
 }
 
 a {
     text-decoration: none;
-    color: #0D0630;
+    color: $primary-color;
+}
+
+a:hover{
+    color: $secondary-color;
 }
 
 a.inline-link{
@@ -114,7 +132,7 @@ a.inline-link{
 
 a.inline-link:hover{
     text-decoration: underline;
-    color: #907AD6;
+    color: $secondary-color;
 }
 
 img{
@@ -233,7 +251,7 @@ p.data-block-value {
     margin-bottom: 0px;
     font-family: $tertiary-font, monospace;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 28px;
     
 }
 
@@ -270,7 +288,7 @@ div#progress-bar {
 .color {
     height: 100%;
     width: $percent; /* Change progress % here */
-    background: #907AD6;
+    background: $secondary-color;
     animation: 3s ease-out 0s 1 expand;
 }
 
@@ -344,6 +362,11 @@ p.proj-subhead{
 
 
 /* PROJECT page */
+
+section.blank-space{
+    margin: 72px;
+}
+
 
 div#project-article-top-row{
     display: grid;
