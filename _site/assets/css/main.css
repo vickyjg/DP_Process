@@ -14,7 +14,7 @@ footer { margin-top: 64px; padding: 16px; display: flex; justify-content: center
 
 p { margin: 0px; line-height: 1.6em; }
 
-h3 { font-family: "Space Mono", monospace; margin-top: 32px; margin-bottom: 6px; font-weight: lighter; font-size: 24px; }
+h3 { font-family: "Space Mono", monospace; margin-top: 32px; margin-bottom: 16px; font-weight: lighter; font-size: 24px; }
 
 a { text-decoration: none; color: #0D0630; }
 
@@ -25,6 +25,8 @@ a.inline-link { text-decoration: underline; }
 a.inline-link:hover { text-decoration: underline; color: #907AD6; }
 
 img { object-fit: cover; }
+
+figcaption { font-family: "EB Garamond", serif; font-style: italic; padding-bottom: 12px; }
 
 /* site logo */
 #site-logo-container { display: flex; align-items: center; justify-content: space-around; margin: 0px; height: 50px; width: 40px; animation: spin 10s linear infinite; }
@@ -131,6 +133,10 @@ p#research-q { padding-top: 32px; padding-bottom: 32px; font-family: "EB Garamon
 div.side-by-side-change { padding: 16px; background-color: white; margin-top: 12px; display: flex; justify-content: space-between; font-family: "EB Garamond", serif; }
 
 p.side-by-side-change-component { padding-right: 20px; }
+
+div.proj-white-box { background-color: white; padding: 24px; display: grid; grid-gap: 12px; font-weight: bold; }
+
+span.italic-serif { font-family: "EB Garamond", serif; font-style: italic; font-weight: lighter; }
 
 /* Squigle link attempt
 

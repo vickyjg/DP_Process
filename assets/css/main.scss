@@ -117,12 +117,13 @@ footer{
 p{
     margin: 0px;
     line-height: 1.6em;
+    
 }
 
 h3{
     font-family: $tertiary-font, monospace;
     margin-top: 32px;
-    margin-bottom: 6px;
+    margin-bottom: 16px;
     font-weight: lighter;
     font-size: 24px;
 }
@@ -147,6 +148,12 @@ a.inline-link:hover{
 
 img{
     object-fit: cover;
+}
+
+figcaption{
+    font-family: $secondary-font, serif;
+    font-style: italic;
+    padding-bottom: 12px;
 }
 
 
@@ -501,6 +508,21 @@ div.side-by-side-change{
 
 p.side-by-side-change-component{
     padding-right: 20px;
+}
+
+div.proj-white-box{
+    background-color: white;
+    padding: 24px;
+    display: grid;
+    grid-gap: 12px;
+    font-weight: bold;
+}
+
+
+span.italic-serif{
+    font-family: $secondary-font, serif;
+    font-style: italic;
+    font-weight: lighter;
 }
 
 
