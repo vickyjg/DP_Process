@@ -3,14 +3,14 @@
     <div class="post-nav-previous">
          {% if page.next.url %}
          <p class="article-top-row-text">&laquo;&nbsp;previous phase</p>
-         <a href="{{ page.next.url }}">{{ page.next.title }}</a>
+         <a href="{{site.baseurl}}{{page.next.url}}">{{ page.next.title }}</a>
             {% endif %}
      </div>
     
     <div class="post-nav-next">
             {% if page.previous.url %}
             <p class="article-top-row-text">next phase&nbsp;&raquo;</p>
-            <a href="{{page.previous.url}}">{{page.previous.title}}</a>
+            <a href="{{site.baseurl}}{{page.previous.url}}">{{page.previous.title}}</a>
             {% endif %}
     </div>
         
