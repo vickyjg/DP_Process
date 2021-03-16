@@ -4,15 +4,17 @@
 /* UNIVERSAL */
 * { box-sizing: border-box; }
 
-body { background-color: #ECE5F0; font-family: "Space Grotesk", sans-serif; color: #0D0630; }
+body { background-color: #F8F5FA; font-family: "Space Grotesk", sans-serif; color: #0D0630; }
 
 nav { padding-top: 10px; /* padding-bottom: 0px; */ margin-bottom: 20px; padding-left: 50px; padding-right: 50px; border-bottom: 1px solid #0D0630; }
 
-#content-wrapper { margin-bottom: 50px; margin-left: 200px; margin-right: 200px; }
+.content-wrapper { margin-bottom: 50px; margin-left: 200px; margin-right: 200px; }
 
 footer { margin-top: 64px; padding: 16px; display: flex; justify-content: center; font-size: 13px; }
 
-p { margin: 0px; }
+p { margin: 0px; line-height: 1.6em; }
+
+h3 { font-family: "Space Mono", monospace; margin-top: 32px; margin-bottom: 6px; font-weight: lighter; font-size: 24px; }
 
 a { text-decoration: none; color: #0D0630; }
 
@@ -46,10 +48,14 @@ nav { display: flex; justify-content: space-between; }
 /* HOME PAGE */
 #update-date { margin-top: 6px; font-family: "EB Garamond", serif; font-size: 16px; }
 
-h2 { margin: 0px; font-size: 24px; }
+h2 { margin: 0px; }
+
+ol { line-height: 1.5em; }
+
+li { padding-bottom: 8px; }
 
 /* Progress Dashboard of HOME */
-div.dashboard { margin-top: 30px; padding: 50px; border-radius: 15px; background-color: #FBF4FF; }
+div.dashboard { margin-top: 30px; padding: 50px; border-radius: 15px; background-color: #ECE5F0; }
 
 div.data-summary { margin-top: 60px; display: flex; justify-content: space-between; }
 
@@ -64,9 +70,9 @@ div#progress-bar { margin-top: 50px; }
 
 .graph { position: relative; width: 100%; height: 20px; display: flex; }
 
-.bar { height: 100%; width: 100%; background: #ECE5F0; flex: 1; }
+.bar { height: 100%; width: 100%; background: #F8F5FA; flex: 1; }
 
-.color { height: 100%; width: 30%; /* Change progress % here */ background: #907AD6; animation: 3s ease-out 0s 1 expand; }
+.color { height: 100%; width: 45%; /* Change progress % here */ background: #907AD6; animation: 3s ease-out 0s 1 expand; }
 
 .percent { min-width: 20px; font-size: 20px; display: flex; margin-left: 15px; align-items: center; font-weight: 700; }
 
@@ -85,7 +91,7 @@ article.project { display: grid; grid-template-columns: 1fr 2fr 7fr; grid-gap: 3
 
 p.proj-week { margin: 0px; font-family: "Space Mono", monospace; font-weight: normal; font-size: 24px; }
 
-p.proj-subhead { font-family: "EB Garamond", serif; }
+p.proj-subhead { font-family: "EB Garamond", serif; line-height: 24px; }
 
 /* PROJECT page */
 section.blank-space { margin: 72px; }
@@ -100,7 +106,7 @@ img.thumbnail-feat-img { height: 96px; object-fit: cover; }
 
 h1.project-title { margin-top: 36px; margin-bottom: 0px; font-size: 36px; }
 
-h2.project-subhead { font-family: "EB Garamond", serif; font-size: 18px; }
+p.project-subhead { font-family: "EB Garamond", serif; font-size: 18px; }
 
 img.feat-img { margin-top: 24px; margin-bottom: 6px; height: 360px; width: 100%; }
 
@@ -110,12 +116,42 @@ div.article-under-image { display: grid; grid-template-columns: 2fr 3fr; }
 
 p.article-paragraph { font-family: "Space Grotesk", sans-serif; font-size: 16px; line-height: 24px; padding-bottom: 24px; }
 
-q.article-quote { font-family: "Space Grotesk", sans-serif; font-size: 24px; line-height: 30px; margin-bottom: 36px; }
+q.article-quote { font-family: "Space Grotesk", sans-serif; }
 
-@media only screen and (max-width: 992px) { #content-wrapper { margin-left: 100px; margin-right: 100px; } }
+div.post-nav { margin-top: 64px; padding-top: 16px; padding-left: 50px; padding-right: 50px; display: flex; justify-content: space-between; border-top: 1px solid #0D0630; }
 
-@media only screen and (max-width: 768px) { /* For tablets */ .welcome-msg { width: 100%; } div.work { display: grid; grid-template-columns: 1fr; } article.project { flex: 100%; max-width: 100%; } #content-wrapper { margin-bottom: 50px; margin-left: 50px; margin-right: 50px; } div.data-summary { margin-top: 60px; display: grid; grid-row-gap: 16px; } }
+div.post-nav-next { text-align: end; }
 
-@media only screen and (max-width: 425px) { /* For tablets: */ #content-wrapper { margin-left: 30px; margin-right: 30px; } div.data-summary { margin-top: 60px; display: grid; grid-row-gap: 16px; } }
+/* PROJECT STATEMENT */
+div#info-page { padding-left: 100px; padding-right: 100px; }
+
+p#research-q { padding-top: 32px; padding-bottom: 32px; font-family: "EB Garamond", serif; font-size: 32px; line-height: 40px; }
+
+/* PROJECT SPECIFIC FEATURES */
+div.side-by-side-change { padding: 16px; background-color: white; margin-top: 12px; display: flex; justify-content: space-between; font-family: "EB Garamond", serif; }
+
+p.side-by-side-change-component { padding-right: 20px; }
+
+/* Squigle link attempt
+
+Copyright (c) 2021 by Geoff Graham (https://codepen.io/geoffgraham/pen/bxEVEN)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+*/
+a.squiggle { text-decoration: underline; }
+
+a.squiggle:hover { font-family: "Space Grotesk", sans-serif; background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23f7a042' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E"); background-position: 0 100%; background-size: auto 6px; background-repeat: repeat-x; text-decoration: none; }
+
+@media only screen and (max-width: 992px) { .content-wrapper { margin-left: 100px; margin-right: 100px; } }
+
+@media only screen and (max-width: 768px) { /* For tablets */ .welcome-msg { width: 100%; } div.work { display: grid; grid-template-columns: 1fr; } article.project { flex: 100%; max-width: 100%; } .content-wrapper { margin-bottom: 50px; margin-left: 50px; margin-right: 50px; } div.data-summary { margin-top: 60px; display: grid; grid-row-gap: 16px; } div#info-page { padding-left: 50px; padding-right: 50px; } }
+
+@media only screen and (max-width: 480px) { /* For small screens: */ .content-wrapper { margin-left: 30px; margin-right: 30px; } div.data-summary { margin-top: 60px; display: grid; grid-row-gap: 16px; } div#info-page { padding-left: 10px; padding-right: 10px; } }
 
 /*# sourceMappingURL=main.css.map */

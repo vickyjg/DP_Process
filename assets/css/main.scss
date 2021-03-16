@@ -66,7 +66,8 @@ $primary-color: #0D0630; /* for text */
 $secondary-color: #907AD6;
 
 $page-side-margin: 200px;
-$percent: 30%;
+$nav-side-margin: 50px;
+$percent: 45%;
 
 
 /* @import "main"; */
@@ -79,7 +80,7 @@ $percent: 30%;
 }
 
 body{
-    background-color: #ECE5F0;
+    background-color: #F8F5FA;
     font-family: $primary-font, sans-serif;
     color: $primary-color;
     
@@ -90,12 +91,12 @@ nav{
     padding-top: 10px;
     /* padding-bottom: 0px; */
     margin-bottom: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: $nav-side-margin;
+    padding-right: $nav-side-margin;
     border-bottom: 1px solid $primary-color;
 }
 
-#content-wrapper{
+.content-wrapper{
    
     margin-bottom: 50px;
     margin-left: $page-side-margin;
@@ -115,6 +116,15 @@ footer{
 
 p{
     margin: 0px;
+    line-height: 1.6em;
+}
+
+h3{
+    font-family: $tertiary-font, monospace;
+    margin-top: 32px;
+    margin-bottom: 6px;
+    font-weight: lighter;
+    font-size: 24px;
 }
 
 a {
@@ -226,7 +236,14 @@ nav{
 
 h2{
     margin: 0px;
-    font-size: 24px;
+}
+
+ol{
+    line-height: 1.5em;
+}
+
+li{
+    padding-bottom: 8px;
 }
 
 /* Progress Dashboard of HOME */
@@ -235,7 +252,7 @@ div.dashboard {
     margin-top: 30px;
     padding: 50px;
     border-radius: 15px;
-    background-color: #FBF4FF;
+    background-color: #ECE5F0;
     
 }
 
@@ -281,7 +298,7 @@ div#progress-bar {
  .bar {
     height: 100%;
     width: 100%;
-    background: #ECE5F0;
+    background: #F8F5FA;
     flex: 1;
 }
 
@@ -351,12 +368,9 @@ p.proj-week{
 
 
 
-h3{
-    
-}
-
 p.proj-subhead{
     font-family: $secondary-font, serif;
+    line-height: 24px;
 }
 
 
@@ -397,7 +411,7 @@ h1.project-title{
     
 }
 
-h2.project-subhead{
+p.project-subhead{
     font-family: $secondary-font, serif;
     font-size: 18px;
     
@@ -439,16 +453,90 @@ p.article-paragraph{
 
 q.article-quote{
     font-family: $primary-font, sans-serif;
-    font-size: 24px;
-    line-height: 30px;
-    margin-bottom: 36px;
+}
+
+div.post-nav{
+    margin-top: 64px;
+    padding-top: 16px;
+    padding-left: $nav-side-margin;
+    padding-right: $nav-side-margin;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid $primary-color ;
+}
+
+div.post-nav-next{
+    text-align: end;
+}
+
+
+
+/* PROJECT STATEMENT */
+
+div#info-page{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+p#research-q{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-family: $secondary-font, serif;
+    font-size: 32px;
+    line-height: 40px;
+    
+}
+
+/* PROJECT SPECIFIC FEATURES */
+
+div.side-by-side-change{
+    padding: 16px;
+    background-color: white;
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    font-family: $secondary-font, serif;
+}
+
+p.side-by-side-change-component{
+    padding-right: 20px;
+}
+
+
+
+/* Squigle link attempt
+
+Copyright (c) 2021 by Geoff Graham (https://codepen.io/geoffgraham/pen/bxEVEN)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+*/
+
+
+a.squiggle {
+    text-decoration: underline;
+}
+
+a.squiggle:hover {
+    font-family: $primary-font, sans-serif;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23f7a042' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 6px;
+  background-repeat: repeat-x;
+  text-decoration: none;
 }
 
 
 
 @media only screen and (max-width: 992px) {   
 
-    #content-wrapper{
+    .content-wrapper{
         margin-left: 100px;
         margin-right: 100px;
     }
@@ -476,7 +564,7 @@ q.article-quote{
     }
 
 
-    #content-wrapper{
+    .content-wrapper{
         margin-bottom: 50px;
         margin-left: 50px;
         margin-right: 50px;
@@ -488,13 +576,19 @@ q.article-quote{
         grid-row-gap : 16px;
     }
     
+    div#info-page{
+    padding-left: 50px;
+    padding-right: 50px;
+    }
+    
 }
 
 
-@media only screen and (max-width: 425px) {
-  /* For tablets: */   
+@media only screen and (max-width: 480px) {
+  /* For small screens: */  
+    
 
-    #content-wrapper{
+    .content-wrapper{
         margin-left: 30px;
         margin-right: 30px;
     }
@@ -503,6 +597,11 @@ q.article-quote{
         margin-top : 60px;
         display : grid;
         grid-row-gap : 16px;
+    }
+    
+    div#info-page{
+    padding-left: 10px;
+    padding-right: 10px;
     }
         
 }

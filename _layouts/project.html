@@ -7,7 +7,7 @@
         
         {% include top-navigation.html %}
         
-        <div id="content-wrapper">
+        <div class="content-wrapper">
             
             <div id="project-article-top-row">
                 
@@ -29,7 +29,7 @@
             
             <h1 class="project-title">{{ page.title }}</h1>
 
-            <h2 class="project-subhead">{{ page.subhead }}</h2>
+            <p class="project-subhead">{{ page.subhead }}</p>
 
             
             {% if page.splash-image %}{% include post-featured-image.html image=page.splash-image alt=page.featured-image-alt %}{% else %}{% include blank-space.html %}{% endif %}
@@ -67,9 +67,12 @@
             
             
             </div>
-
+            
+            
 
         </div>
+        
+        {% include post-navigation.html %}
         
         {% include footer.html %}
     
