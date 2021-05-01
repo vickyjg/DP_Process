@@ -1,4 +1,4 @@
-I"�!<h3>Framework</h3>
+I"�#<h2>Framework</h2>
 
 <p>The process of working with data draws many parallels with the design process. While data can make up the research subset of the design process, the process of collecting, analyzing and understanding data can be creatively generative too. I wanted to adopt this process into my project as a starting off point. I converted the data science process I had learned from a previous class into a framework statement.</p>
 
@@ -99,7 +99,7 @@ Cons:</p>
 
 <h3>Workshop I: Visualizing Data</h3>
 
-<p><a class="squiggle" href="https://viki.invisionapp.com/freehand/DP-Workshops-vql3somsJ">Go to Visualizing Data workshop ➡️</a></p>
+<p><a class="squiggle" href="https://viki.invisionapp.com/freehand/DP-Workshops-vql3somsJ" target="_blank" rel="noopener noreferrer">Go to Visualizing Data workshop ➡️</a></p>
 
 <p>For the first week of prototyping, I created two preliminary ideas I had for the app using low fidelity prototype screens based on my framework statement and an understanding of my audience. I was not confident in either direction—one I felt was too wide in what it could track and the other was restrictive in a linear timeline.</p>
 
@@ -126,21 +126,25 @@ Cons:</p>
 
 <p><br /></p>
 
-<p>(1)</p>
+<h4>(1) Viewing Data App Prototype</h4>
+
+<p><a class="squiggle" href="https://viki.invisionapp.com/prototype/DP-Prototype2-030921-ckm1f1wib00a51l01iulo16sq" target="_blank" rel="noopener noreferrer">See app prototype ➡️</a></p>
 
 <p><br />
 Based on my learnings from last week, I pivoted to tracking different moments of a person’s week. The types of moments included events, thoughts and news. Each moment was encapsulated by a circle. Each moment would have an attached importance (on a size scale) and time. These weekly moments are visualized on a board. I created a hypothetical version with content from Chrissy Teigan’s social media feed. I allowed participants to freely click around and discover the information and narratives on their own.</p>
 
 <p><br /></p>
 
-<p>Overall, participants seem to enjoy the experience. What it invokes was curiosity to learn more about each moment, especially ones that were visualized but details were not given. It could encourage participants to reach out to that person to ask about that moment! These are the exact connections I was aiming to create—a solution with the propensity to create those deeper connections.</p>
+<p>Overall, participants seem to enjoy the experience. What it invoked was curiosity to learn more about each moment, especially ones that were visualized but details were not given. It could encourage participants to reach out to that person to ask about that moment! These are the exact connections I was aiming to create—a solution with the propensity to create those deeper connections.</p>
 
 <p><br /></p>
 
-<p>(2)</p>
+<h4>(2) Info Brainstorm Session</h4>
 
 <p><img src="/DP_Process/assets/images/Week4/DPWorkshop-2A.jpg" alt="" width="600px" height="700px" /></p>
 <figcaption>Types of Information Brainstorm Session</figcaption>
+
+<p><a class="squiggle" href="https://viki.invisionapp.com/freehand/DP-Workshop--2-March-10-U5Kikqn02" target="_blank" rel="noopener noreferrer">Go to Info Brainstorm Session ➡️</a></p>
 
 <p>To help ideate what information would be most pertinent to collect, I held a brainstorming session. I included the information I used in this week’s prototype, but I also invited others to add what other info they would like to know.</p>
 
