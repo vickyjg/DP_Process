@@ -28,6 +28,8 @@ img { object-fit: cover; }
 
 figcaption { font-family: "EB Garamond", serif; font-style: italic; padding-bottom: 12px; }
 
+ul { list-style-type: circle; }
+
 /* site logo */
 #site-logo-container { display: flex; align-items: center; justify-content: space-around; margin: 0px; height: 50px; width: 40px; animation: spin 10s linear infinite; }
 
@@ -47,6 +49,27 @@ nav { display: flex; justify-content: space-between; }
 
 .nav-link { padding-left: 30px; font-size: 1em; font-weight: bold; letter-spacing: 2px; }
 
+/* Back to Top 
+from Matthew Cain on Codepen
+https://codepen.io/matthewcain/pen/ZepbeR
+*/
+#button { display: inline-block; border-radius: 30px; background-color: #FFFFFF; box-shadow: 2px 2px 6px #C2B2B4; padding-top: 4px; width: 50px; height: 50px; text-align: center; position: fixed; bottom: 30px; right: 30px; transition: background-color .3s,  opacity .5s, visibility .5s; opacity: 0; visibility: hidden; z-index: 1000; font-size: 24px; font-weight: 100; }
+
+#button > p { font-size: 12px; line-height: 50px; letter-spacing: 0.05em; color: #0D0630; position: relative; top: -30px; }
+
+/*
+#button::after {  
+}
+*/
+#button:hover { cursor: pointer; background-color: #907AD6; }
+
+#button:active { background-color: #907AD6; }
+
+#button:hover, #button:active, #button:hover > p, #button:active > p { color: #FFFFFF; }
+
+#button.show { opacity: 1; visibility: visible; }
+
+/* end of back to top button styles*/
 /* HOME PAGE */
 #update-date { margin-top: 6px; font-family: "EB Garamond", serif; font-size: 16px; }
 
@@ -100,7 +123,7 @@ section.blank-space { margin: 72px; }
 
 div#project-article-top-row { display: grid; grid-template-columns: 1fr 2fr 2fr; }
 
-p.article-top-row-text { font-family: "EB Garamond", serif; font-style: italic; }
+p.article-top-row-text { font-family: "EB Garamond", serif; font-style: italic; padding-bottom: 0px; }
 
 p.article-top-row-data { font-family: "Space Mono", monospace; font-size: 16px; }
 
@@ -116,10 +139,12 @@ img.feat-img { margin-top: 24px; margin-bottom: 6px; height: 360px; width: 100%;
 
 figcaption.feat-img-caption { font-family: "EB Garamond", serif; font-size: 16px; font-style: italic; color: #3F3862; margin-bottom: 36px; }
 
-div.article-under-image { display: grid; grid-template-columns: 250px 1fr; grid-column-gap: 50px; }
+div.article-under-image { display: grid; grid-template-columns: 250px 2fr; grid-column-gap: 50px; }
 
 /* Article Nav*/
-nav.article-nav { width: 250px; margin: 0px; padding: 0px; grid-column-start: 1; grid-column-end: 2; border-style: none; }
+nav.article-nav { width: 250px; height: auto; height: 100px; margin: 0px; padding: 0px; grid-column-start: 1; grid-column-end: 2; border-style: none; }
+
+nav.article-nav > a { padding: 10px; }
 
 ul.sidebar-info { margin: 0px; padding: 0px; list-style-type: none; }
 
@@ -139,7 +164,9 @@ div#info-page { padding-left: 100px; padding-right: 100px; }
 p#research-q { padding-top: 32px; padding-bottom: 32px; font-family: "EB Garamond", serif; font-size: 32px; line-height: 40px; }
 
 /* PROJECT SPECIFIC FEATURES */
-div.side-by-side-change { padding: 16px; background-color: white; margin-top: 12px; display: flex; justify-content: space-between; font-family: "EB Garamond", serif; }
+div.white-box, div.side-by-side-change { border-radius: 20px; padding: 20px; background-color: white; margin-top: 12px; font-family: "EB Garamond", serif; }
+
+div.side-by-side-change { display: flex; justify-content: space-between; }
 
 p.side-by-side-change-component { padding-right: 20px; }
 
@@ -147,7 +174,50 @@ div.proj-white-box { background-color: white; padding: 24px; display: grid; grid
 
 span.italic-serif { font-family: "EB Garamond", serif; font-style: italic; font-weight: lighter; }
 
-/* Squigle link attempt
+/* Carousel Slideshow 
+based on Kevin Powell's tutorial: https://www.youtube.com/watch?v=VYsVOamdB0g
+*/
+.carousel { position: relative; height: 500px; margin-top: 20px; margin-bottom: 100px; margin-left: 10%; margin-right: 10%; background-color: #FFFFFF; }
+
+div.carousel_track-container { position: relative; height: 100%; overflow: hidden; margin: 32px; }
+
+ul.carousel_track { position: relative; list-style: none; height: 100%; transition: transform 1s ease-in; }
+
+/* Nested grid in slide to format text
+and images for each artist*/
+li.carousel_slide { position: absolute; top: 0; bottom: 0; width: 100%; height: 300px; padding: 16px; display: grid; grid-template-rows: 1fr 1fr; grid-gap: 32px; /*    margin-right: 32px;*/ }
+
+li.carousel_slide > img { width: 100%; height: auto; object-fit: cover; grid-row: 1 / span 1; }
+
+/*
+li.carousel_slide > caption {
+grid-column: 1 / span 1;
+font-family: 'PxGroteskLight', sans-serif;
+font-size: 0.2em;
+line-height: 0.5em;
+}
+*/
+p.artistStatement { grid-row: 2 / span 1; font-size: 0.75em; line-height: 1.5em; padding-right: 32px; }
+
+p.artistBio { font-size: 0.75em; line-height: 1em; }
+
+button.carousel_button { position: absolute; top: 50%; transform: translateY(-50%); background: transparent; border: 0; cursor: pointer; }
+
+button.carousel_button-left, button.carousel_button-right { border: black 1px solid; border-radius: 20px; padding: 10px; font-size: 20px; }
+
+button.carousel_button-left { left: -50px; }
+
+button.carousel_button-right { right: -50px; }
+
+button.carousel_button img { width: 50px; }
+
+.carousel_nav { display: flex; justify-content: center; }
+
+.carousel_indicator { border: 0; border-radius: 10px; width: 20px; height: 10px; margin: 5px; background-color: #FFFFFF; }
+
+.carousel_indicator.currentSlide { background-color: #907AD6; }
+
+/* Squiggle link attempt
 
 Copyright (c) 2021 by Geoff Graham (https://codepen.io/geoffgraham/pen/bxEVEN)
 

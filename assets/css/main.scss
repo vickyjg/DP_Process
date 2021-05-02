@@ -65,6 +65,8 @@ $tertiary-font: 'Space Mono';
 
 $primary-color: #0D0630; /* for text */
 $secondary-color: #907AD6;
+$base-color: #F8F5FA;
+$white-color: #FFFFFF;
 
 $page-side-margin: 200px;
 $nav-side-margin: 50px;
@@ -81,7 +83,7 @@ $percent: 90%;
 }
 
 body{
-    background-color: #F8F5FA;
+    background-color: $base-color;
     font-family: $primary-font, sans-serif;
     color: $primary-color;
     font-size: 20px;
@@ -161,6 +163,10 @@ figcaption{
     padding-bottom: 12px;
 }
 
+ul{
+    list-style-type: circle;
+}
+
 
 /* site logo */
 
@@ -231,6 +237,65 @@ nav{
     
 }
 
+
+/* Back to Top 
+from Matthew Cain on Codepen
+https://codepen.io/matthewcain/pen/ZepbeR
+*/
+
+#button {
+    display: inline-block;
+    border-radius: 30px;
+    background-color: $white-color;
+    box-shadow: 2px 2px 6px #C2B2B4;
+    padding-top: 4px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+        opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+
+#button > p {
+    font-size: 12px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    color: $primary-color;
+    position: relative;
+    top: -30px;
+}
+/*
+#button::after {  
+}
+*/
+
+#button:hover {
+    cursor: pointer;
+    background-color: $secondary-color;
+}
+#button:active {
+    background-color: $secondary-color;
+}
+
+#button:hover , #button:active, #button:hover > p , #button:active > p{
+    color: $white-color;
+}
+
+#button.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* end of back to top button styles*/
 
 
 
@@ -405,6 +470,7 @@ div#project-article-top-row{
 p.article-top-row-text {
     font-family: $secondary-font, serif;
     font-style: italic;
+    padding-bottom: 0px;
 }
 
 p.article-top-row-data{
@@ -454,16 +520,19 @@ figcaption.feat-img-caption{
 
 div.article-under-image{
     display: grid;
-    grid-template-columns: 250px 1fr;
+    grid-template-columns: 250px 2fr;
     grid-column-gap: 50px;
     
 }
 
 /* Article Nav*/
 nav.article-nav{
-    // position: fixed;
-//    top: 0;
     width: 250px;
+    height: auto;
+    // background-color: $white-color;
+//    display:flex;
+//    justify-content: space-around;
+    height:100px;
     margin: 0px;
     padding: 0px;
     grid-column-start: 1;
@@ -471,6 +540,9 @@ nav.article-nav{
     border-style: none;
 }
 
+nav.article-nav > a {
+    padding: 10px;
+}
 
 
 ul.sidebar-info{
@@ -533,14 +605,17 @@ p#research-q{
 }
 
 /* PROJECT SPECIFIC FEATURES */
-
-div.side-by-side-change{
-    padding: 16px;
+div.white-box, div.side-by-side-change{
+    border-radius: 20px;
+    padding: 20px;
     background-color: white;
     margin-top: 12px;
+    font-family: $secondary-font, serif;
+}
+
+div.side-by-side-change{
     display: flex;
     justify-content: space-between;
-    font-family: $secondary-font, serif;
 }
 
 p.side-by-side-change-component{
@@ -562,9 +637,149 @@ span.italic-serif{
     font-weight: lighter;
 }
 
+/* Carousel Slideshow 
+based on Kevin Powell's tutorial: https://www.youtube.com/watch?v=VYsVOamdB0g
+*/
+
+p.artistBio{
+
+    
+}
+
+.carousel{
+    position: relative;
+    height: 500px;
+    // margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: 10% ;
+    margin-right: 10% ;
+    background-color: $white-color;
+}
+
+div.carousel_track-container{
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    margin: 32px;
+}
+
+ul.carousel_track{
+    position: relative;
+    list-style: none;
+    height: 100%;
+    transition: transform 1s ease-in;
+}
+
+/* Nested grid in slide to format text
+and images for each artist*/
+
+li.carousel_slide{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 300px;
+    padding: 16px;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 32px;
+    /*    margin-right: 32px;*/
+
+}
 
 
-/* Squigle link attempt
+li.carousel_slide > img{
+   
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+
+    grid-row: 1 / span 1;
+
+}
+
+/*
+li.carousel_slide > caption {
+grid-column: 1 / span 1;
+font-family: 'PxGroteskLight', sans-serif;
+font-size: 0.2em;
+line-height: 0.5em;
+}
+*/
+
+p.artistStatement{
+    grid-row: 2 / span 1;
+    font-size: 0.75em;
+    line-height: 1.5em;
+    padding-right: 32px;
+
+}
+
+p.artistBio{
+    // grid-row: 2 / span 1;
+    font-size: 0.75em;
+    line-height: 1em;
+
+}
+
+button.carousel_button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border:0;
+    cursor: pointer;
+}
+
+button.carousel_button-left, button.carousel_button-right {
+    border: black 1px solid;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+button.carousel_button-left{
+    left: -50px;
+}
+
+button.carousel_button-right{
+    right: -50px;
+}
+
+
+button.carousel_button img{
+    width: 50px;
+}
+
+.carousel_nav{
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+.carousel_indicator{
+    border: 0;
+    border-radius: 10px;
+    width: 20px;
+    height: 10px;
+    margin: 5px;
+    background-color: $white-color;
+
+
+}
+
+.carousel_indicator.currentSlide{
+    background-color: $secondary-color;
+
+}
+
+
+
+/* Squiggle link attempt
 
 Copyright (c) 2021 by Geoff Graham (https://codepen.io/geoffgraham/pen/bxEVEN)
 

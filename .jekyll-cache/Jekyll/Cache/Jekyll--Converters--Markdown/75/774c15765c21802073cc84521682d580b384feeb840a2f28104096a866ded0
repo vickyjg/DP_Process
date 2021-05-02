@@ -1,0 +1,117 @@
+I"�<nav class="article-nav">
+  <ul class="sidebar-info">
+    <li><a class="scroll-link" href="#one" data-element-id="one">Intro</a></li>
+    <li><a class="scroll-link" href="#two" data-element-id="two">Definition of Data</a></li>
+    <li><a class="scroll-link" href="#three" data-element-id="three">Strategy</a></li>
+
+  </ul>
+</nav>
+
+<div class="article-content">
+
+<section id="one" class="section">
+    
+<p>Data doesn’t necessarily have to be a scary, intangible thing only the trained and specialized can touch and use. When we think of data, images of massive spreadsheets and complicated charts and graphs are inextricably linked. They may be used in a business, government, academic or organizational setting. There is a sense of formality in all these settings. That data is merely used in experienced, goal driven settings.</p>
+
+<p>But as I explore the work of Giorgia Lupi, Stephanie Posavec, Nathalie Miebach, the more I realize data can be used as a medium and can be allowed the openness of interpretation. In Giorgia Lupi’s <a href="https://medium.com/@giorgialupi/data-humanism-the-revolution-will-be-visualized-31486a30dbfb" target="_blank" rel="noopener noreferrer" class="inline-link">Data Humanism manifesto</a>, Lupi restructures our conventions towards data. (It is well worth the read!) She advocates for data thinking grounded in the personal, the small data and complexities of stories.</p>
+
+<q class="article-quote">We are ready to question the impersonality of a merely technical approach to data, and to begin designing ways to connect numbers to what they really stand for: knowledge, behaviors, people.</q>
+
+</section>
+
+<p>With this in mind, I begin my exploration into data.</p>
+
+<section id="two" class="section">
+
+<h2>My Working Definition of Data</h2>
+<p>Here is my working definition of data, based on Merriam Webster, how it is used in data science and my own experience working with data:</p>
+<br />
+
+<div class="white-box">
+<p><b>da · ta</b> noun, singular or plural in usage</p>
+    
+<ol>
+    <li>Piece(s) of information that can take many forms (qualitative, quantitative, descriptive, etc)</li>
+    <li>Collected using a defined methodology</li>
+    <li>Can be collected repeatedly to make a dataset (for example, how many of Y are there at time X)</li>
+    <li>Representative of a larger reality or perspective</li>
+    <li>Can be used for analysis, calculation, discussion, planning</li>
+
+</ol>
+</div>
+
+</section>
+
+<br />
+
+<img src="/DP_Process/assets/images/Week1/Buttons.jpg" alt="" width="600px" height="700px" />
+<figcaption>Buttons from Inclass Exercise</figcaption>
+
+<h2>Inspirations</h2>
+<!--  Section 2: Slideshow w/ Individual Artists
+based on Kevin Powell's tutorial: https://www.youtube.com/watch?v=VYsVOamdB0g */-->
+
+<div class="carousel">
+     <button class="carousel_button  carousel_button-left">&lt;
+</button>
+
+
+<div class="carousel_track-container">
+    <ul class="carousel_track">
+
+<!-- Happy Show Slide-->
+<li class="carousel_slide currentSlide">
+    
+    <img src="/DP_Process/assets/images/Week1/TheHappyShow.jpg" alt="" />
+    
+
+    <p class="artistStatement">The Happy Show</p>
+
+    <p class="artistBio">Kayla Rich is currently a communication design student at MassArt.</p>
+
+
+</li>
+
+<!-- Spotify Wrapped Slide -->
+<li class="carousel_slide">
+    <img src="/DP_Process/assets/images/Week1/spotifywrapped.jpg" alt="" />
+
+<p class="artistStatement">This is a response to to Fox News anchor Laura Ingraham’s statement towards LeBron </p>
+
+    <p class="artistBio">Tony Pham is a MassArt communication design alumni.</p>
+
+</li>
+
+<!--  Cara's Slide -->
+<li class="carousel_slide">
+
+    <img src="images/IMG_0116.JPG" alt="Cara Tarmey standing in front of her letterpress poster in the gallery" />
+
+    <p class="artistStatement">My work is based on the phrase “come hell or high water.” I worked a lot with the composition of the piece. It was interesting experimenting in both the letterpress and AR. With the AR, I edited the sounds myself with found sounds to add another layer of meaning.</p>
+
+    <p class="artistBio">Cara Tarmey is currently a communication design student at MassArt.</p>
+
+</li>
+
+</ul>
+
+</div>
+
+<div class="carousel_nav">
+    <button class="carousel_indicator currentSlide"></button>
+    <button class="carousel_indicator"></button>
+    <button class="carousel_indicator"></button>
+</div>
+
+<button class="carousel_button carousel_button-right">&gt;
+</button>
+
+
+</div>
+
+
+&lt;/section&gt;
+
+
+</div>
+:ET
