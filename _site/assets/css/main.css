@@ -119,7 +119,7 @@ figcaption.feat-img-caption { font-family: "EB Garamond", serif; font-size: 16px
 div.article-under-image { display: grid; grid-template-columns: 250px 1fr; grid-column-gap: 50px; }
 
 /* Article Nav*/
-nav.article-nav { width: 250px; margin: 0px; padding: 0px; grid-column-start: 1; grid-column-end: 2; }
+nav.article-nav { width: 250px; margin: 0px; padding: 0px; grid-column-start: 1; grid-column-end: 2; border-style: none; }
 
 ul.sidebar-info { margin: 0px; padding: 0px; list-style-type: none; }
 

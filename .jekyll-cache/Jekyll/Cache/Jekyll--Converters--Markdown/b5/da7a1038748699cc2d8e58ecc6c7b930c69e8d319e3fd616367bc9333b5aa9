@@ -1,8 +1,8 @@
-I"�%<nav class="article-nav">
+I"z%<nav class="article-nav">
   <ul class="sidebar-info">
-    <li><a class="scroll-link" href="#one" data-element-id="one">Section One</a></li>
-    <li><a class="scroll-link" href="#two" data-element-id="two">Section Two</a></li>
-    <li><a class="scroll-link" href="#three" data-element-id="three">Section Three</a></li>
+    <li><a class="scroll-link" href="#one" data-element-id="one">Framework</a></li>
+    <li><a class="scroll-link" href="#two" data-element-id="two">Audience Role</a></li>
+    <li><a class="scroll-link" href="#three" data-element-id="three">Workshop I: Visualizing Data</a></li>
     <li><a class="scroll-link" href="#four" data-element-id="four">Section Four</a></li>
       <li><a class="scroll-link" href="#five" data-element-id="five">Section 5</a></li>
   </ul>
@@ -11,23 +11,7 @@
 <div class="article-content">
 
 <section id="one" class="section">
-  <h2>Section One</h2>
-</section>
-<section id="two" class="section">
-  <h2>Section Two</h2>
-</section>
-<section id="three" class="section">
-  <h2>Section Three</h2>
-</section>
-<section id="four" class="section">
-    <h2>Section Four</h2>
-</section>
-<section id="five" class="section">
-    <h2>Section 5</h2>
-</section>
-
-
-<h2 class="article">Framework</h2>
+    <h2 class="article">Framework</h2>
 
 <p>The process of working with data draws many parallels with the design process. While data can make up the research subset of the design process, the process of collecting, analyzing and understanding data can be creatively generative too. I wanted to adopt this process into my project as a starting off point. I converted the data science process I had learned from a previous class into a framework statement.</p>  
 
@@ -63,8 +47,10 @@
 
 <p>This framework will help me ideate on how I wanted to approach my project—The project is aimed at helping people feel more connected to others while being physically apart, but what pieces of data would people most want to know about their friends and family? How would I present this data? How many variables or aspects should I be tracking to make the insights meaningful but at the same time accessible for my busy audience?</p>
 
+</section>
 
-<h2 class="article">Audience Role</h2>
+<section id="two" class="section">
+  <h2 class="article">Audience Role</h2>
 
 <p>Another pertinent part of the experience to be considered is the role of my audience and how they would be experiencing the app. Here were the main roles I considered for my audience:</p>
 
@@ -107,7 +93,9 @@ Cons:
 * Requires the most work on the part of the audience
 * May not be ideal in the format of an app because it limits how data can be represented to digital forms
 
-<h2>Workshop I: Visualizing Data</h2>
+</section>
+<section id="three" class="section">
+  <h2>Workshop I: Visualizing Data</h2>
 
 <a class="squiggle" href="https://viki.invisionapp.com/freehand/DP-Workshops-vql3somsJ" target="_blank" rel="noopener noreferrer">Go to Visualizing Data workshop ➡️</a>
 
@@ -132,6 +120,19 @@ The main focus for this week was a workshop done on a collaborative board aimed 
 <h2 class="article">Workshop II: Viewing Data &amp; Types of Info</h2>
 
 The two workshops for this week focused on (1) viewing data visualizations and (2) what information would be most pertinent to collect. 
+
+</section>
+<section id="four" class="section">
+    <h2>Section Four</h2>
+</section>
+<section id="five" class="section">
+    <h2>Section 5</h2>
+</section>
+
+
+
+
+
 
 <br />
 

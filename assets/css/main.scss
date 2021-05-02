@@ -468,6 +468,7 @@ nav.article-nav{
     padding: 0px;
     grid-column-start: 1;
     grid-column-end: 2;
+    border-style: none;
 }
 
 
@@ -491,6 +492,7 @@ p.article-paragraph{
     line-height: 24px;
     padding-bottom: 24px;
 }
+
 
 q.article-quote{
     font-family: $primary-font, sans-serif;

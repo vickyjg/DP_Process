@@ -1,104 +1,10 @@
-<!doctype html>
-<html>
-
-   <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Prototype: Testing & Workshops</title>
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&family=Space+Grotesk:wght@400;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-        <link rel="shortcut icon" href="/DP_Process/assets/images/favicon.png">
-    
-        <link rel="stylesheet"  href="/DP_Process/assets/css/main.css">
-    
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    
-</head>
-    
-    <body>
-        
-        <!-- logo --> 
-
-
-    <nav>
-        
-        <div id="site-logo-container"><a class="site-logo" href="/DP_Process">*</a></div>
-
-        <h1 class="site-title"><a href="/DP_Process"> Our Lives, Data-fied </a></h1>
-        
-        <div><a class="site-logo" href="http://localhost:4000"></a></div>
-
-
-    
-<!--
-        <div id="nav-link-div">
-            <a href="http://localhost:4000" class="nav-link">LOGS</a>
-            <a href="  " class="nav-link">INFO</a>
-        </div>
--->
-
-
-    </nav>
-
-
-        
-        <div class="content-wrapper">
-            
-            <div id="project-article-top-row">
-                
-                <section>
-                    <p class=article-top-row-text>phase</p>
-
-                    <p class="article-top-row-data">4</p>  
-                </section>
-                
-                <section>
-                    <p class=article-top-row-text>published</p>
-    
-                    <p class="article-top-row-data">March 16, 2021</p>
-                </section>
-                
-                
-            </div>
-            
-            
-            <h1 class="project-title">Prototype: Testing & Workshops</h1>
-
-            <p class="project-subhead">Conducting a series of workshops to determine the data experience, information to be collected, and how the data will be visualized.</p>
-
-            
-            
-    <img class="feat-img" src="/DP_Process/assets/images/Week4_featImg.jpg" alt="alternateeee" />
-    <figcaption class="feat-img-caption"></figcaption>
-
-
-    <!--        <img class="splash-image" src=" %Week4_featImg.jpg% " >-->
-
-    <!--
-             call the featured-post-image.html template file 
-            
-    <img class="feat-img" src="/DP_Process/assets/images/Week4_featImg.jpg" alt="alternateeee" />
-    <figcaption class="feat-img-caption"></figcaption>
-
-    -->
-            
-            
-            <div class="article-under-image">
-                
-                
-                
-                
-                
-                    
-                    <nav class="article-nav">
+I"n%<nav class="article-nav">
   <ul class="sidebar-info">
     <li><a class="scroll-link" href="#one" data-element-id="one">Framework</a></li>
     <li><a class="scroll-link" href="#two" data-element-id="two">Audience Role</a></li>
     <li><a class="scroll-link" href="#three" data-element-id="three">Workshop I: Visualizing Data</a></li>
     <li><a class="scroll-link" href="#four" data-element-id="four">Workshop 2: Viewing App Prototype</a></li>
-    <li><a class="scroll-link" href="#five" data-element-id="five">Workshop 3: Info Brainstorm Session</a></li>
+    <li><a class="scroll-link" href="#five" data-element-id="five">Section 5</a></li>
   </ul>
 </nav>
 
@@ -151,21 +57,15 @@
 <h3>🤖 Passive role</h3>
 <p>The app would collect the information from the audiences’ phone usage and other internet of things devices. With the information collected, the app algorithms would automatically analyze the data and visually output a visualization and summary of that data. In this role, the user is passively discovering their habits. </p>
 
-<div class="side-by-side-change">
-    <section>
-        <b>Pros</b>
-        <p>Least amount of work for the audience</p>
-        <p>Accessible in terms of ease of use, least time consuming</p>
-    </section>
-    <section>
-        <b>Cons</b>
-        <p>May be least engaging</p>
-        <p>Audience may not fully understand what factors / aspects were taken in account when creating the visualizations or summary</p>
-        <p>By limiting the factors / aspects to those that can be tracked by internet of things devices, the insights may be sterile and lacking a human quality to it</p>
-    </section>
-</div>
-            
+Pros:
+* Least amount of work for the audience
+* Accessible in terms of ease of use, least time consuming
 
+<br />
+Cons:
+* May be least engaging
+* Audience may not fully understand what factors / aspects were taken in account when creating the visualizations or summary
+* By limiting the factors / aspects to those that can be tracked by internet of things devices, the insights may be sterile and lacking a human quality to it
 
 <h3>🏃 Active Role</h3>
 <p>An active role will have the audience manually input their own data. The data will be represented using the app’s predefined visual language. From the visualizations, the audience can draw their own conclusions, but brief summaries can also be offered by the app.</p>
@@ -257,53 +157,4 @@ The two workshops for this week focused on (1) viewing data visualizations and (
 
 
 </div>
-
-                
-                
-                
-               
-            
-            
-            </div>
-            
-            
-
-        </div>
-        
-        <div class="post-nav">
-    
-    <div class="post-nav-previous">
-         
-         <p class="article-top-row-text">&laquo;&nbsp;previous phase</p>
-         <a href="/DP_Process/project-3/">Prototype: Interviews & Form</a>
-            
-     </div>
-    
-    <div class="post-nav-next">
-            
-            <p class="article-top-row-text">next phase&nbsp;&raquo;</p>
-            <a href="/DP_Process/project-5/">Build: Based on Researching and Testing</a>
-            
-    </div>
-        
-
- 
-    
-</div>
-        
-        <footer>
-
-    <p>Vicky Jiang * 2021 * Massachusetts College of Art and Design</p>
-
-
-
-</footer>
-        
-         <script src="/DP_Process/assets/index.js"></script>
-    
-    </body>
-
-    
-
-</html>
-
+:ET

@@ -1,23 +1,4 @@
----
-
-layout: project
-week: 3
-written-date: March 9, 2021
-title: "Prototype: Interviews & Form"
-featured-image: Week3_featImg.jpg
-featured-image-alt: Screenshots of my survey is overlayed with a dot grid and textured gradient.
-
-subhead: Conducting a survey and one-on-one interviews gave me great insights and direction for my project.
-
-splash-image: Week3_featImg.jpg
-featured-image-caption: ""
-
-
----
-
-
-    
-<nav class="article-nav">
+I"§<nav class="article-nav">
   <ul class="sidebar-info">
     <li><a class="scroll-link" href="#one" data-element-id="one">Intro</a></li>
     <li><a class="scroll-link" href="#two" data-element-id="two">Key Takeaways</a></li>
@@ -32,13 +13,13 @@ featured-image-caption: ""
 
 To better understand my audience, I conducted a google form survey and one on one interviews. Below is my team map which shows an overview of people who have assisted me on my project. They are divided into 3 categories: audience, strategy and inspiration.
 
-<img src="{{ site.baseurl }}/assets/images/Week3/TeamMap.png" alt="" width=600px />
+<img src="/DP_Process/assets/images/Week3/TeamMap.png" alt="" width="600px" />
 <figcaption>Team Map</figcaption>
 
 <section id="two" class="section">
 <h3>Key Takeaways</h3>
 
-<a href="https://forms.gle/vNVxygRdxbTbBrJn9" target="_blank" rel="noopener noreferrer"><img src="{{ site.baseurl }}/assets/images/Week3/survey.png" alt="" width=600px height=400px /></a>
+<a href="https://forms.gle/vNVxygRdxbTbBrJn9" target="_blank" rel="noopener noreferrer"><img src="/DP_Process/assets/images/Week3/survey.png" alt="" width="600px" height="400px" /></a>
 
 <figcaption>Google form survey on connections in isolation</figcaption>
 
@@ -89,4 +70,6 @@ Weekday evenings are the most popular time for friends and family to spend time 
 
 </section>
 
-</div>
+&lt;/div&gt;
+</section></div>
+:ET

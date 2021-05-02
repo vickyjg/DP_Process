@@ -136,7 +136,7 @@ $(window).scroll(function() {                  // assign scroll event listener
             position: 'fixed',
             top: '0',
             paddingTop: '50px',
-            left: '150'
+            left: '1'
         });
     } else {                                   // apply position: static
         $('.article-nav').css({                      // if you scroll above it
