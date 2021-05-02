@@ -454,24 +454,35 @@ figcaption.feat-img-caption{
 
 div.article-under-image{
     display: grid;
-    grid-template-columns: 250px 3fr;
+    grid-template-columns: 250px 1fr;
+    grid-column-gap: 50px;
     
 }
 
 /* Article Nav*/
 nav.article-nav{
-    position: fixed;
-    top: 0;
+    // position: fixed;
+//    top: 0;
+    width: 250px;
+    margin: 0px;
+    padding: 0px;
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
 
 
 
 ul.sidebar-info{
+    margin: 0px;
+    padding: 0px;
     list-style-type: none;
 }
 
-section.article-content{
+div.article-content{
+    grid-column-start: 2;
+    grid-column-end: 3;
 }
+
 
 
 p.article-paragraph{
@@ -632,6 +643,10 @@ a.squiggle:hover {
 
 @media only screen and (max-width: 480px) {
   /* For small screens: */  
+    
+    body{
+        overflow-x: hidden;
+    }
     
 
     .content-wrapper{

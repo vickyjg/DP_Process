@@ -45,21 +45,12 @@
             <div class="article-under-image">
                 
                 
-                <section class="sidebar-info">
-                    <h3>Outline</h3>
-                    <ul class="sidebar-info">
-                        <li>{{ page.list-item-1 }}</li>
-                        <li>{{ page.list-item-2 }}</li>
-                        <li>{{ page.list-item-3 }}</li>
-                        <li>{{ page.list-item-4 }}</li>
-                    </ul>
-                </section>
                 
-                <section class="article-content">
+                
+                
                     
                     {{ content }}
                 
-                </section>
                 
                 
                
@@ -74,6 +65,8 @@
         {% include post-navigation.html %}
         
         {% include footer.html %}
+        
+         <script src="{{ "/assets/index.js" | relative_url }}"></script>
     
     </body>
 

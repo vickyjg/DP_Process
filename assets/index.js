@@ -120,3 +120,29 @@ for (var i = 0; i < scrollLinks.length; i++) {
     scrollToElement( element, 1500, 'easeInOutQuint');
   });
 }
+
+
+
+// FIXED POSITION AFTER SCROLL
+
+var fixmeTop = $('.article-nav').offset().top;       // get initial position of the element
+
+$(window).scroll(function() {                  // assign scroll event listener
+
+    var currentScroll = $(window).scrollTop(); // get current position
+
+    if (currentScroll >= fixmeTop) {           // apply position: fixed if you
+        $('.article-nav').css({                      // scroll to that element or below it
+            position: 'fixed',
+            top: '0',
+            paddingTop: '50px',
+            left: '150'
+        });
+    } else {                                   // apply position: static
+        $('.article-nav').css({                      // if you scroll above it
+            position: 'static',
+            paddingTop: '0px'
+        });
+    }
+
+});
