@@ -39,6 +39,7 @@ ol, ul {
     list-style: none;
 }
 
+
 blockquote, q {
     quotes: none;
 }
@@ -118,6 +119,7 @@ footer{
 
 p{
     margin: 0px;
+    padding-bottom: 16px;
     
     
     
@@ -125,10 +127,10 @@ p{
 
 h3{
     font-family: $tertiary-font, monospace;
-    margin-top: 32px;
-    margin-bottom: 16px;
-    font-weight: lighter;
-    font-size: 24px;
+    margin: 0px;
+    padding-bottom: 8px;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 a {
@@ -423,6 +425,10 @@ h1.project-title{
     
 }
 
+h2.article{
+    padding-bottom: 24px;
+}
+
 p.project-subhead{
     font-family: $secondary-font, serif;
     font-size: 18px;
@@ -448,8 +454,20 @@ figcaption.feat-img-caption{
 
 div.article-under-image{
     display: grid;
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: 250px 3fr;
     
+}
+
+/* Article Nav*/
+nav.article-nav{
+    position: fixed;
+    top: 0;
+}
+
+
+
+ul.sidebar-info{
+    list-style-type: none;
 }
 
 section.article-content{
@@ -466,6 +484,7 @@ p.article-paragraph{
 q.article-quote{
     font-family: $primary-font, sans-serif;
 }
+
 
 div.post-nav{
     margin-top: 64px;
@@ -670,6 +689,8 @@ a.squiggle:hover {
     cap.proj-caption{
         
     }
+    
+    
 
         
 }

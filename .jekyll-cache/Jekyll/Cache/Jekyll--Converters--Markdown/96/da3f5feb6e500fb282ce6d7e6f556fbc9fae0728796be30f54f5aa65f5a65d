@@ -1,8 +1,6 @@
-I"�#<h2>Framework</h2>
+I"�#<h2 class="article">Framework</h2>
 
 <p>The process of working with data draws many parallels with the design process. While data can make up the research subset of the design process, the process of collecting, analyzing and understanding data can be creatively generative too. I wanted to adopt this process into my project as a starting off point. I converted the data science process I had learned from a previous class into a framework statement.</p>
-
-<p><br /></p>
 
 <p><b>Data Framework</b></p>
 <div class="proj-white-box">
@@ -37,13 +35,13 @@ To feel more in sync with myself and friends, I will track our lives using event
 <p><br />
 This framework will help me ideate on how I wanted to approach my project—The project is aimed at helping people feel more connected to others while being physically apart, but what pieces of data would people most want to know about their friends and family? How would I present this data? How many variables or aspects should I be tracking to make the insights meaningful but at the same time accessible for my busy audience?</p>
 
-<h3>Audience Role</h3>
+<h2 class="article">Audience Role</h2>
 
 <p>Another pertinent part of the experience to be considered is the role of my audience and how they would be experiencing the app. Here were the main roles I considered for my audience:</p>
 
 <p><br /></p>
 
-<h4>🤖 Passive role</h4>
+<h3>🤖 Passive role</h3>
 <p>The app would collect the information from the audiences’ phone usage and other internet of things devices. With the information collected, the app algorithms would automatically analyze the data and visually output a visualization and summary of that data. In this role, the user is passively discovering their habits.</p>
 
 <p><br /></p>
@@ -62,7 +60,7 @@ Cons:</p>
   <li>By limiting the factors / aspects to those that can be tracked by internet of things devices, the insights may be sterile and lacking a human quality to it</li>
 </ul>
 
-<h4>🏃 Active Role</h4>
+<h3>🏃 Active Role</h3>
 <p>An active role will have the audience manually input their own data. The data will be represented using the app’s predefined visual language. From the visualizations, the audience can draw their own conclusions, but brief summaries can also be offered by the app.</p>
 
 <p><br /></p>
@@ -80,7 +78,7 @@ Cons:</p>
   <li>Requires a bit more work on the part of the audience</li>
 </ul>
 
-<h4>🧑‍🎨 Creative Role</h4>
+<h3>🧑‍🎨 Creative Role</h3>
 <p>A creative role gives the audience the freedom to decide on what they want to track as it pertains to the subject and how they will represent it visually. It will heavily rely on the framework statement created to help anchor the audience.</p>
 
 <p><br />
@@ -97,7 +95,7 @@ Cons:</p>
   <li>May not be ideal in the format of an app because it limits how data can be represented to digital forms</li>
 </ul>
 
-<h3>Workshop I: Visualizing Data</h3>
+<h2>Workshop I: Visualizing Data</h2>
 
 <p><a class="squiggle" href="https://viki.invisionapp.com/freehand/DP-Workshops-vql3somsJ" target="_blank" rel="noopener noreferrer">Go to Visualizing Data workshop ➡️</a></p>
 
@@ -120,13 +118,13 @@ Cons:</p>
 
 <p>For the third part, participants entered information about their screen times. There was not a visual aspect, but this part may reflect the collection part of the process. It was the least engaging, but it was straightforward in presenting the data.</p>
 
-<h3>Workshop II: Viewing Data &amp; Types of Info</h3>
+<h2 class="article">Workshop II: Viewing Data &amp; Types of Info</h2>
 
 <p>The two workshops for this week focused on (1) viewing data visualizations and (2) what information would be most pertinent to collect.</p>
 
 <p><br /></p>
 
-<h4>(1) Viewing Data App Prototype</h4>
+<h3>(1) Viewing Data App Prototype</h3>
 
 <p><a class="squiggle" href="https://viki.invisionapp.com/prototype/DP-Prototype2-030921-ckm1f1wib00a51l01iulo16sq" target="_blank" rel="noopener noreferrer">See app prototype ➡️</a></p>
 
@@ -139,7 +137,7 @@ Based on my learnings from last week, I pivoted to tracking different moments of
 
 <p><br /></p>
 
-<h4>(2) Info Brainstorm Session</h4>
+<h3>(2) Info Brainstorm Session</h3>
 
 <p><img src="/DP_Process/assets/images/Week4/DPWorkshop-2A.jpg" alt="" width="600px" height="700px" /></p>
 <figcaption>Types of Information Brainstorm Session</figcaption>
