@@ -1,0 +1,133 @@
+I"[<nav class="article-nav">
+    <ul class="sidebar-info">
+        <li><a class="scroll-link" href="#one" data-element-id="one">Intro</a></li>
+        <li><a class="scroll-link" href="#two" data-element-id="two">Site Map</a></li>
+        <li><a class="scroll-link" href="#three" data-element-id="three">Strategy</a></li>
+        
+    </ul>
+</nav>
+
+<div class="article-content">
+
+<section id="one" class="section">
+    <p>Based on the experience I prototyped with my friends, I converted the experience to a site map, low fidelity prototype and high fidelity prototype.</p>
+    
+    <h3>Final Statement (Job to be Done)</h3>
+    
+    <p>To discover more about myself and my inner circle, I will track our lives using moments for a week.</p>
+    
+    
+</section>
+
+<section id="two" class="section">
+
+<h2>Site Map</h2>
+<p>The main experiences the app would need included:</p>
+<ul>
+<li>inputting data for a moment and outputting the visualization</li>
+<li>board(s) for the collected moments for individuals</li>
+<li>board(s) for collective moments of circles</li>
+<li>summary highlighting the major themes of a period of time (week, months, years)</li>
+
+    </ul>
+    
+    <img src="/DP_Process/assets/images/Week4/site-map.png" alt="" />
+<figcaption>Site map for app with different pages and features</figcaption>
+
+</section>
+
+<section id="two" class="section">
+    <h2>Low Fidelity Prototype</h2>
+<!--  Section 2: Slideshow w/ Individual Artists
+based on Kevin Powell's tutorial: https://www.youtube.com/watch?v=VYsVOamdB0g */-->
+
+<div class="carousel">
+     <button class="carousel_button  carousel_button-left">&lt;
+</button>
+
+
+<div class="carousel_track-container">
+    <ul class="carousel_track">
+
+<li class="carousel_slide currentSlide">
+    <img src="/DP_Process/assets/images/Week5/lf-1-home.jpg" height="350px" alt="" />
+    
+    <div>
+        <h3 class="artistStatement">The Happy Show</h3>
+
+        <p class="slide-description"></p>
+    </div>
+
+
+</li>
+
+<li class="carousel_slide">
+    <li class="carousel_slide currentSlide">
+    <img src="/DP_Process/assets/images/Week5/lf-2-board.jpg" height="350px" alt="" />
+    
+    <div>
+
+        <h3 class="artistStatement">Spotify Wrapped</h3>
+
+        <p class="slide-description"></p>
+    
+    </div>
+
+</li>
+
+
+<li class="carousel_slide">
+
+    <li class="carousel_slide currentSlide">
+    
+    <img src="/DP_Process/assets/images/Week5/lf-3-board-selected.jpg" height="350px" alt="" />
+    
+    <div>
+
+    <h3 class="artistStatement">Dear New York</h3>
+
+    <p class="slide-description"></p>
+    
+    </div>
+
+</li>
+
+<!--  Dear Joy Slide -->
+<li class="carousel_slide">
+
+    <img src="/DP_Process/assets/images/Week1/DearJoyI-You.jpg" width="400px" alt="" />
+    
+    <div>
+    
+        <h3 class="artistStatement">Living as an Asian Girl Data Viz Posters</h3>
+
+        <p class="slide-description">A series of data visualization posters reflecting the designer, Joy Li's, experiences as an Asian girl.</p>
+    
+    </div>
+
+</li>
+
+
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+<div class="carousel_nav">
+    <button class="carousel_indicator currentSlide"></button>
+    <button class="carousel_indicator"></button>
+    <button class="carousel_indicator"></button>
+    <button class="carousel_indicator"></button>
+</div>
+
+<button class="carousel_button carousel_button-right">&gt;
+</button>
+
+
+&lt;/div&gt;
+    
+&lt;/section&gt;
+
+&lt;/div&gt;
+    
+</li></li></ul></div></div></section></div>
+:ET

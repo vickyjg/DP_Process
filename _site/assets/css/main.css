@@ -24,9 +24,9 @@ a.inline-link { text-decoration: underline; }
 
 a.inline-link:hover { text-decoration: underline; color: #907AD6; }
 
-img { object-fit: cover; }
+img { object-fit: contain; width: 100%; }
 
-figcaption { font-family: "EB Garamond", serif; font-style: italic; padding-bottom: 12px; }
+figcaption { font-family: "EB Garamond", serif; font-style: italic; font-size: 16px; line-height: 20px; padding-bottom: 24px; }
 
 ul { list-style-type: circle; }
 
@@ -131,11 +131,11 @@ img.thumbnail-feat-img { height: 160px; object-fit: cover; }
 
 h1.project-title { margin-top: 36px; margin-bottom: 0px; font-size: 36px; }
 
-h2.article { padding-bottom: 24px; }
+h2.article { padding-top: 36px; padding-bottom: 24px; }
 
 p.project-subhead { font-family: "EB Garamond", serif; font-size: 18px; }
 
-img.feat-img { margin-top: 24px; margin-bottom: 6px; height: 360px; width: 100%; }
+img.feat-img { object-fit: cover; margin-top: 24px; margin-bottom: 6px; height: 360px; width: 100%; }
 
 figcaption.feat-img-caption { font-family: "EB Garamond", serif; font-size: 16px; font-style: italic; color: #3F3862; margin-bottom: 36px; }
 
@@ -146,7 +146,7 @@ nav.article-nav { width: 250px; height: auto; height: 100px; margin: 0px; paddin
 
 nav.article-nav > a { padding: 10px; }
 
-ul.sidebar-info { margin: 0px; padding: 0px; list-style-type: none; }
+ul.sidebar-info { margin: 0px; padding: 0px; list-style-type: none; font-family: "Space Mono", monospace; font-size: 16px; line-height: 20px; }
 
 div.article-content { grid-column-start: 2; grid-column-end: 3; }
 
@@ -164,7 +164,11 @@ div#info-page { padding-left: 100px; padding-right: 100px; }
 p#research-q { padding-top: 32px; padding-bottom: 32px; font-family: "EB Garamond", serif; font-size: 32px; line-height: 40px; }
 
 /* PROJECT SPECIFIC FEATURES */
-div.white-box, div.side-by-side-change { border-radius: 20px; padding: 20px; background-color: white; margin-top: 12px; font-family: "EB Garamond", serif; }
+div.white-box, div.side-by-side-change { border-radius: 20px; padding: 20px; background-color: white; margin-top: 12px; margin-bottom: 24px; font-family: "EB Garamond", serif; }
+
+div.two-columns { display: flex; justify-content: space-between; }
+
+div.two-columns > img { width: 48%; }
 
 div.side-by-side-change { display: flex; justify-content: space-between; }
 
@@ -177,17 +181,17 @@ span.italic-serif { font-family: "EB Garamond", serif; font-style: italic; font-
 /* Carousel Slideshow 
 based on Kevin Powell's tutorial: https://www.youtube.com/watch?v=VYsVOamdB0g
 */
-.carousel { position: relative; height: 500px; margin-top: 20px; margin-bottom: 100px; margin-left: 10%; margin-right: 10%; background-color: #FFFFFF; }
+.carousel { position: relative; height: 500px; margin-top: 20px; margin-bottom: 100px; margin-left: 10%; margin-right: 10%; border-radius: 20px; background-color: transparent; box-shadow: 1px 1px 5px #C2B2B4; font-family: "Space Grotesk", sans-serif; }
 
-div.carousel_track-container { position: relative; height: 100%; overflow: hidden; margin: 32px; }
+div.carousel_track-container { position: relative; height: 100%; overflow: hidden; margin: 24px; }
 
 ul.carousel_track { position: relative; list-style: none; height: 100%; transition: transform 1s ease-in; }
 
 /* Nested grid in slide to format text
 and images for each artist*/
-li.carousel_slide { position: absolute; top: 0; bottom: 0; width: 100%; height: 300px; padding: 16px; display: grid; grid-template-rows: 1fr 1fr; grid-gap: 32px; /*    margin-right: 32px;*/ }
+li.carousel_slide { position: absolute; top: 0; bottom: 0; width: 100%; height: auto; padding: 16px; display: grid; grid-template-rows: auto; }
 
-li.carousel_slide > img { width: 100%; height: auto; object-fit: cover; grid-row: 1 / span 1; }
+li.carousel_slide > img { width: 100%; grid-row: 1 / span 1; }
 
 /*
 li.carousel_slide > caption {
@@ -197,13 +201,15 @@ font-size: 0.2em;
 line-height: 0.5em;
 }
 */
-p.artistStatement { grid-row: 2 / span 1; font-size: 0.75em; line-height: 1.5em; padding-right: 32px; }
+h2.artistStatement { padding-bottom: 0px; margin-bottom: 0px; }
 
-p.artistBio { font-size: 0.75em; line-height: 1em; }
+p.slide-description, p.slide-description-center { font-size: 16px; line-height: 30px; }
 
-button.carousel_button { position: absolute; top: 50%; transform: translateY(-50%); background: transparent; border: 0; cursor: pointer; }
+p.slide-description-center { text-align: center; }
 
-button.carousel_button-left, button.carousel_button-right { border: black 1px solid; border-radius: 20px; padding: 10px; font-size: 20px; }
+button.carousel_button { position: absolute; top: 50%; transform: translateY(-50%); background: transparent; border: 0; box-shadow: 1px 1px 3px #C2B2B4; cursor: pointer; }
+
+button.carousel_button-left, button.carousel_button-right { border-radius: 20px; padding: 10px; font-size: 20px; }
 
 button.carousel_button-left { left: -50px; }
 
@@ -213,7 +219,7 @@ button.carousel_button img { width: 50px; }
 
 .carousel_nav { display: flex; justify-content: center; }
 
-.carousel_indicator { border: 0; border-radius: 10px; width: 20px; height: 10px; margin: 5px; background-color: #FFFFFF; }
+.carousel_indicator { border: 0; border-radius: 10px; width: 10px; height: 10px; margin: 5px; background-color: #FFFFFF; }
 
 .carousel_indicator.currentSlide { background-color: #907AD6; }
 

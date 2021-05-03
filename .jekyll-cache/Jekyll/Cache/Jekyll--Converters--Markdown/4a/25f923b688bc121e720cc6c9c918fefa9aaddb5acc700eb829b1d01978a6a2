@@ -1,0 +1,222 @@
+I"4<nav class="article-nav">
+  <ul class="sidebar-info">
+    <li><a class="scroll-link" href="#one" data-element-id="one">Framework</a></li>
+    <li><a class="scroll-link" href="#two" data-element-id="two">Audience Role</a></li>
+    <li><a class="scroll-link" href="#three" data-element-id="three">Workshop 1: Visualizing Data</a></li>
+    <li><a class="scroll-link" href="#four" data-element-id="four">Workshop 2: Viewing App Prototype</a></li>
+    <li><a class="scroll-link" href="#five" data-element-id="five">Workshop 3: Info Brainstorm Session</a></li>
+    <li><a class="scroll-link" href="#six" data-element-id="six">Workshop 4: Data Shapes</a></li>
+    <li><a class="scroll-link" href="#seven" data-element-id="seven">Prototyping with My Inner Circle</a></li>
+      
+  </ul>
+</nav>
+
+<div class="article-content">
+
+<section id="one" class="section">
+    <h2 class="article">Framework</h2>
+
+<p>The process of working with data draws many parallels with the design process. While data can make up the research subset of the design process, the process of collecting, analyzing and understanding data can be creatively generative too. I wanted to adopt this process into my project as a starting off point. I converted the data science process I had learned from a previous class into a framework statement.</p>  
+
+
+
+<h3>Data Framework</h3>
+<div class="proj-white-box">
+
+<p>To discover more about [subject], <span class="italic-serif"> what do you want to know more about?</span></p>
+
+
+<p>I will track [variable / aspect] <span class="italic-serif"> what aspects or variables (can be more than one) will you be tracking in order to learn more about your subject?</span></p>
+
+<p>using [medium / units] <span class="italic-serif">how will these aspects or variables be measured? (quantitative or qualitative)</span></p>
+
+
+<p>for [amount of time]. <span class="italic-serif">how long will you be tracking these variables in order to get a good understanding of your subject?</span></p>
+
+</div>
+
+<br />
+
+<h3>Examples of the framework statement in action:</h3>
+
+
+
+<p>To discover more about my mental health, I will track my mood using doodles for a week.</p>
+
+
+<p>To discover more about friendships, I will track our communication using number of texts sent for a day.</p>
+
+<p>To feel more in sync with myself and friends, I will track our lives using events and moods for a year.</p>
+
+<p>This framework will help me ideate on how I wanted to approach my project—The project is aimed at helping people feel more connected to others while being physically apart, but what pieces of data would people most want to know about their friends and family? How would I present this data? How many variables or aspects should I be tracking to make the insights meaningful but at the same time accessible for my busy audience?</p>
+
+</section>
+
+<section id="two" class="section">
+  <h2 class="article">Audience Role</h2>
+
+<p>Another pertinent part of the experience to be considered is the role of my audience and how they would be experiencing the app. Here were the main roles I considered for my audience:</p>
+
+<h3>🤖 Passive role</h3>
+<p>The app would collect the information from the audiences’ phone usage and other internet of things devices. With the information collected, the app algorithms would automatically analyze the data and visually output a visualization and summary of that data. In this role, the user is passively discovering their habits. </p>
+
+<div class="side-by-side-change">
+    <section>
+        <b>Pros</b>
+        <p>Least amount of work for the audience</p>
+        <p>Accessible in terms of ease of use, least time consuming</p>
+    </section>
+    <section>
+        <b>Cons</b>
+        <p>May be least engaging</p>
+        <p>Audience may not fully understand what factors / aspects were taken in account when creating the visualizations or summary</p>
+        <p>By limiting the factors / aspects to those that can be tracked by internet of things devices, the insights may be sterile and lacking a human quality to it</p>
+    </section>
+</div>
+            
+
+
+<h3>🏃 Active Role</h3>
+<p>An active role will have the audience manually input their own data. The data will be represented using the app’s predefined visual language. From the visualizations, the audience can draw their own conclusions, but brief summaries can also be offered by the app.</p>
+
+Pros:
+* Allows the audience to collect their own data. Gives them the control to decide what they will collect and will not collect. By doing so, they will be able to notice things on a higher level of awareness.
+* With a predefined visual language, it relieves the audience of having to come up with how they will represent the data
+
+<br />
+
+Cons:
+* Requires a bit more work on the part of the audience
+
+
+<h3>🧑‍🎨 Creative Role</h3>
+<p>A creative role gives the audience the freedom to decide on what they want to track as it pertains to the subject and how they will represent it visually. It will heavily rely on the framework statement created to help anchor the audience.</p>
+
+<br />
+Pros:
+* It can generate some surprising and creative visualizations.
+* It gives the widest range of possibilities in terms of what to track, how to track and how it is presented.
+
+<br />
+Cons:
+* Requires the most work on the part of the audience
+* May not be ideal in the format of an app because it limits how data can be represented to digital forms
+
+</section>
+<section id="three" class="section">
+  <h2 class="article">Workshop 1: Visualizing Data</h2>
+
+<a class="squiggle" href="https://viki.invisionapp.com/freehand/DP-Workshops-vql3somsJ" target="_blank" rel="noopener noreferrer">Go to Visualizing Data workshop ➡️</a>
+
+<p>For the first week of prototyping, I created two preliminary ideas I had for the app using low fidelity prototype screens based on my framework statement and an understanding of my audience. I was not confident in either direction—one I felt was too wide in what it could track and the other was restrictive in a linear timeline. </p>
+
+
+<img src="/DP_Process/assets/images/Week4/DPWorkshop-1-part1.jpg" alt="" />
+<figcaption>Participants were asked to visualize their screen time data in any way they wanted to.</figcaption>
+
+The main focus for this week was a workshop done on a collaborative board aimed at the different ways people could interact with their own data (passive, active, or creative role). The data participants interacted with was their screen time—data they could easily access on their devices. In the first part, participants were asked to visualize their screen time however they wanted. The only exception was that they could not use a bar chart. The visualizations came out great and were distinct to each person—it was imbued with each person’s perspective and thinking, not just the objective numbers. 
+
+<img src="/DP_Process/assets/images/Week4/DPWorkshop-1-part2.jpg" alt="" />
+<figcaption>Participants were asked to visualize their screentime according to the visual key.</figcaption>
+
+<p>The second part asked participants to create a visualization based on a predefined key. I also included a subjective variable—how they felt about their screen time— because it gave more of the story of their screen time. After participants finished their visualizations, I appreciated how you could draw comparisons between them thanks to the same rules they were following.</p>
+
+<img src="/DP_Process/assets/images/Week4/DPWorkshop-1-part3.jpg" alt="" />
+<figcaption>Participants were asked to enter in their screen time data.</figcaption>
+
+<p>For the third part, participants entered information about their screen times. There was not a visual aspect, but this part may reflect the collection part of the process. It was the least engaging, but it was straightforward in presenting the data.</p>
+
+
+</section>
+
+
+<section id="four" class="section">
+    <h2>Workshop 2: Viewing App Prototype</h2>
+
+<a class="squiggle" href="https://viki.invisionapp.com/prototype/DP-Prototype2-030921-ckm1f1wib00a51l01iulo16sq" target="_blank" rel="noopener noreferrer">See app prototype ➡️</a>
+
+<p>Based on my learnings from last week, I pivoted to tracking different moments of a person’s week. The types of moments included events, thoughts and news. Each moment was encapsulated by a circle. Each moment would have an attached importance (on a size scale) and time. These weekly moments are visualized on a board. I created a hypothetical version with content from Chrissy Teigan’s social media feed. I allowed participants to freely click around and discover the information and narratives on their own.</p>
+
+<p>Overall, participants seem to enjoy the experience. What it invoked was curiosity to learn more about each moment, especially ones that were visualized but details were not given. It could encourage participants to reach out to that person to ask about that moment! These are the exact connections I was aiming to create—a solution with the propensity to create those deeper connections.</p>
+
+</section>
+
+
+<section id="five" class="section">
+    <h2>Workshop 3: Info Brainstorm Session</h2>
+    
+<img src="/DP_Process/assets/images/Week4/DPWorkshop-2A.jpg" alt="" />
+
+<figcaption>Types of Information Brainstorm Session</figcaption>
+
+<a class="squiggle" href="https://viki.invisionapp.com/freehand/DP-Workshop--2-March-10-U5Kikqn02" target="_blank" rel="noopener noreferrer">Go to Info Brainstorm Session ➡️</a>
+
+<p>To help ideate what information would be most pertinent to collect, I held a brainstorming session. I included the information I used in this week’s prototype, but I also invited others to add what other info they would like to know.</p>
+
+<img src="/DP_Process/assets/images/Week4/DPWorkshop-2B.jpg" alt="" />
+<figcaption>Brainstorming Results</figcaption>
+
+<p>Based on the results of the brainstorming session, these were the types of information I concluded on.</p>
+
+</section>
+
+
+
+<section id="six" class="section">
+    <h2>Workshop 4: Data Shapes</h2>
+    
+<p>With the types of information to be visualized for each moment, the next step was how  each of these pieces of information were going to be visually represented.</p>
+
+ <img src="/DP_Process/assets/images/Week4/data-viz-experiments.jpg" alt="" />
+  <figcaption>Moment visualization form experiments</figcaption>
+ 
+<p>I experimented with shapes, lines and colors in Illustrator. I was not completely confident with attaching certain forms or shapes to pieces of information. I did not want this relation to be arbitrary and solely based on my own perspective. My goal was to have forms and colors be naturally associated with pieces of information so that for viewers, it would be easier to recall the visual key. In order to get a wider perspective, I conducted another workshop where I had participants match forms and colors to the information.</p>
+
+<p>Based on the workshop results and some refinement on my part, I finalized how a  moment was going to be visualized!
+</p>
+
+<div class="two-columns">
+ <img src="/DP_Process/assets/images/Week4/mini-guide-01.jpg" alt="" />
+ 
+ <img src="/DP_Process/assets/images/Week4/mini-guide-02.jpg" alt="" />
+ 
+ </div>
+ 
+ <figcaption>Visual key for moments</figcaption>
+
+</section>
+
+<section id="seven" class="section">
+    <h2>Prototyping with My Inner Circle</h2>
+    
+    <p>The final stage before going into final production for the app was to actually test the visualizations out with my friends. The setup was for each of us to collect our moments throughout the week and share them with each other. At the end of the week, we would reconvene and talk about our experience and moments.</p>
+    
+    <img src="/DP_Process/assets/images/Week4/zoom-1.jpg" alt="" />
+    
+    <figcaption>Explaining the visual key for a moment to my friends</figcaption>
+    
+    <p>Logistically, to visualize each moment, I wrote a quick program where participants would enter the information pertaining to the moment and the program would output the visualized moment.</p>
+    
+    <img src="/DP_Process/assets/images/Week4/code.png" alt="" />
+<figcaption>Program to create visualizations</figcaption>
+
+    <img src="/DP_Process/assets/images/Week4/code-result.png" alt="" />
+<figcaption>Program outputted visualization</figcaption>
+    
+    <p>To display our moments, we utilized a Pinterest board with different sections for each person.</p>
+    
+    <img src="/DP_Process/assets/images/Week4/pinterest-board.jpg" alt="" />
+    
+    <figcaption>Pinterest board for collecting and sharing our moments</figcaption>
+
+<p>We were able to see each other’s boards as they updated throughout the week. We quite enjoyed the experience because it gave us quick insights to each other’s day without much level of effort. Collecting each moment was quite easy too because there was predefined information needed for each moment.</p>
+
+<p>At the end of the week, we could also see overall themes for each other’s week. The most prominent piece of information we could pick out from a quick scan of each other’s section was the moods!</p>
+
+<p>Collecting these moments also allowed us to have conversation starters and allowed us to pick out and talk about moments that we would have otherwise forgotten happened in our busy schedules.</p>
+
+</section>
+
+
+</div>
+:ET

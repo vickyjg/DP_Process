@@ -67,6 +67,7 @@ $primary-color: #0D0630; /* for text */
 $secondary-color: #907AD6;
 $base-color: #F8F5FA;
 $white-color: #FFFFFF;
+$shadow-color: #C2B2B4;
 
 $page-side-margin: 200px;
 $nav-side-margin: 50px;
@@ -154,13 +155,17 @@ a.inline-link:hover{
 }
 
 img{
-    object-fit: cover;
+    object-fit: contain;
+    width: 100%;
+
 }
 
 figcaption{
     font-family: $secondary-font, serif;
     font-style: italic;
-    padding-bottom: 12px;
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 24px;
 }
 
 ul{
@@ -236,6 +241,7 @@ nav{
 .nav-link:hover{
     
 }
+
 
 
 /* Back to Top 
@@ -492,6 +498,7 @@ h1.project-title{
 }
 
 h2.article{
+    padding-top: 36px;
     padding-bottom: 24px;
 }
 
@@ -502,6 +509,7 @@ p.project-subhead{
 }
 
 img.feat-img{
+    object-fit: cover;
     margin-top: 24px;
     margin-bottom: 6px;
     height: 360px;
@@ -549,6 +557,9 @@ ul.sidebar-info{
     margin: 0px;
     padding: 0px;
     list-style-type: none;
+    font-family: $tertiary-font, monospace;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 div.article-content{
@@ -610,7 +621,17 @@ div.white-box, div.side-by-side-change{
     padding: 20px;
     background-color: white;
     margin-top: 12px;
+    margin-bottom: 24px;
     font-family: $secondary-font, serif;
+}
+
+div.two-columns{
+    display: flex;
+    justify-content: space-between;
+}
+
+div.two-columns > img{
+    width: 48%;
 }
 
 div.side-by-side-change{
@@ -654,14 +675,18 @@ p.artistBio{
     margin-bottom: 100px;
     margin-left: 10% ;
     margin-right: 10% ;
-    background-color: $white-color;
+    border-radius: 20px;
+    background-color: transparent;
+    box-shadow: 1px 1px 5px $shadow-color;
+    font-family: $primary-font, sans-serif;
+    
 }
 
 div.carousel_track-container{
     position: relative;
     height: 100%;
     overflow: hidden;
-    margin: 32px;
+    margin: 24px;
 }
 
 ul.carousel_track{
@@ -679,13 +704,10 @@ li.carousel_slide{
     top: 0;
     bottom: 0;
     width: 100%;
-    height: 300px;
+    height: auto;
     padding: 16px;
-
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 32px;
-    /*    margin-right: 32px;*/
+    grid-template-rows: auto;
 
 }
 
@@ -693,8 +715,8 @@ li.carousel_slide{
 li.carousel_slide > img{
    
     width: 100%;
-    height: auto;
-    object-fit: cover;
+    //height: 250px;
+    //object-fit: contain;
 
     grid-row: 1 / span 1;
 
@@ -709,18 +731,26 @@ line-height: 0.5em;
 }
 */
 
-p.artistStatement{
-    grid-row: 2 / span 1;
-    font-size: 0.75em;
-    line-height: 1.5em;
-    padding-right: 32px;
+h2.artistStatement{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+//    grid-row: 2 / span 1;
+//    font-size: 0.75em;
+//    line-height: 1.5em;
+//    padding-right: 32px;
 
 }
 
-p.artistBio{
+p.slide-description, p.slide-description-center{
     // grid-row: 2 / span 1;
-    font-size: 0.75em;
-    line-height: 1em;
+    font-size: 16px;
+    line-height: 30px;
+
+}
+
+p.slide-description-center{
+    // grid-row: 2 / span 1;
+    text-align: center;
 
 }
 
@@ -730,11 +760,12 @@ button.carousel_button{
     transform: translateY(-50%);
     background: transparent;
     border:0;
+    box-shadow: 1px 1px 3px $shadow-color;
     cursor: pointer;
 }
 
 button.carousel_button-left, button.carousel_button-right {
-    border: black 1px solid;
+    // border: black 1px solid;
     border-radius: 20px;
     padding: 10px;
     font-size: 20px;
@@ -764,7 +795,7 @@ button.carousel_button img{
 .carousel_indicator{
     border: 0;
     border-radius: 10px;
-    width: 20px;
+    width: 10px;
     height: 10px;
     margin: 5px;
     background-color: $white-color;

@@ -1,0 +1,33 @@
+I"S<nav class="article-nav">
+    <ul class="sidebar-info">
+        <li><a class="scroll-link" href="#one" data-element-id="one">Intro</a></li>
+        <li><a class="scroll-link" href="#two" data-element-id="two">Audience</a></li>
+        <li><a class="scroll-link" href="#three" data-element-id="three">Strategy</a></li>
+        
+    </ul>
+</nav>
+
+<div class="article-content">
+
+<section id="one" class="section">
+    <p>Based on the experience I prototyped with my friends, I converted the experience to a site map, low fidelity prototype and high fidelity prototype.</p>
+    
+    <h3>Final Statement (Job to be Done)</h3>
+    
+    <p>To discover more about myself and my inner circle, I will track our lives using moments for a week.</p>
+    
+    
+</section>
+
+<section id="one" class="section">
+
+<p>The main experiences the app would need included:</p>
+inputting data for a moment and outputting the visualization
+board(s) for the collected moments for individuals
+board(s) for collective moments of circles
+summary highlighting the major themes of a period of time (week, months, years)
+</section>
+
+</div>
+
+:ET

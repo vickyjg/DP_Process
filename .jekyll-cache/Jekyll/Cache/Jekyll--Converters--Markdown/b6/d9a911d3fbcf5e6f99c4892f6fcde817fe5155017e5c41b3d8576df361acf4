@@ -1,0 +1,211 @@
+I"<nav class="article-nav">
+    <ul class="sidebar-info">
+        <li><a class="scroll-link" href="#one" data-element-id="one">Intro</a></li>
+        <li><a class="scroll-link" href="#two" data-element-id="two">Site Map</a></li>
+        <li><a class="scroll-link" href="#three" data-element-id="three">Low Fidelity Prototype</a></li>
+        <li><a class="scroll-link" href="#four" data-element-id="four">High Fidelity Prototype</a></li>
+        
+    </ul>
+</nav>
+
+<div class="article-content">
+
+<section id="one" class="section">
+    <p>Based on the experience I prototyped with my friends, I converted the experience to a site map, low fidelity prototype and high fidelity prototype.</p>
+    
+    <h3>Final Statement (Job to be Done)</h3>
+    
+    <p>To discover more about myself and my inner circle, I will track our lives using moments for a week.</p>
+    
+    
+</section>
+
+<section id="two" class="section">
+
+<h2>Site Map</h2>
+<p>The main experiences the app would need included:</p>
+<ul>
+<li>inputting data for a moment and outputting the visualization</li>
+<li>board(s) for the collected moments for individuals</li>
+<li>board(s) for collective moments of circles</li>
+<li>summary highlighting the major themes of a period of time (week, months, years)</li>
+
+    </ul>
+    
+    <img src="/DP_Process/assets/images/Week4/site-map.png" alt="" />
+<figcaption>Site map for app with different pages and features</figcaption>
+
+</section>
+
+<section id="three" class="section">
+    <h2>Low Fidelity Prototype</h2>
+<!--  Section 2: Slideshow w/ Individual Artists
+based on Kevin Powell's tutorial: https://www.youtube.com/watch?v=VYsVOamdB0g */-->
+
+<div class="carousel">
+     <button class="carousel_button  carousel_button-left">&lt;
+</button>
+
+
+<div class="carousel_track-container">
+    <ul class="carousel_track">
+
+<li class="carousel_slide currentSlide">
+    <img src="/DP_Process/assets/images/Week5/lf-1-home.jpg" height="350px" alt="" />
+    
+    <div>
+        <p class="slide-description-center">Home page</p>
+    </div>
+
+
+</li>
+
+
+<li class="carousel_slide">
+    <img src="/DP_Process/assets/images/Week5/lf-2-board.jpg" height="350px" alt="" />
+    
+    <div>
+        <p class="slide-description-center">Your weekly board</p>
+    </div>
+
+</li>
+
+
+<li class="carousel_slide">
+ <img src="/DP_Process/assets/images/Week5/lf-3-board-selected.jpg" height="350px" alt="" />
+    
+    <div>
+
+    <p class="slide-description-center">Selected moment on board</p>
+    
+    </div>
+
+</li>
+
+<li class="carousel_slide">
+    <img src="/DP_Process/assets/images/Week5/lf-4-board-summary.jpg" height="350px" alt="" />
+    
+    <div>
+
+        <p class="slide-description-center">Your weekly board summary</p>
+    
+    </div>
+
+</li>
+
+<li class="carousel_slide">
+    <img src="/DP_Process/assets/images/Week5/lf-5-my-circle.jpg" height="350px" alt="" />
+    
+    <div>
+        <p class="slide-description-center">My circles page</p>
+    
+    </div>
+
+</li>
+
+
+<li class="carousel_slide">
+    <img src="/DP_Process/assets/images/Week5/lf-6-week-shared.jpg" height="350px" alt="" />
+    
+    <div>
+
+        <p class="slide-description-center">My circle's collective weekly board</p>
+    
+    </div>
+
+</li>
+
+<li class="carousel_slide">
+    <img src="/DP_Process/assets/images/Week5/lf-7-create-moment.jpg" height="350px" alt="" />
+    
+    <div>
+    
+        <p class="slide-description-center">Create a moment</p>
+    
+    </div>
+
+</li>
+
+<li class="carousel_slide">
+    <img src="/DP_Process/assets/images/Week5/lf-8-custom-moment.jpg" height="350px" alt="" />
+    
+    <div>
+    
+        <p class="slide-description-center">Customize the moment</p>
+    
+    </div>
+
+</li>
+
+<li class="carousel_slide">
+    <img src="/DP_Process/assets/images/Week5/lf-9-profile.jpg" height="350px" alt="" />
+    
+    <div>
+        <p class="slide-description-center">Your profile</p>
+    
+    </div>
+
+</li>
+
+<li class="carousel_slide">
+    <img src="/DP_Process/assets/images/Week5/lf-10-profile-report.jpg" height="350px" alt="" />
+    
+    <div>
+
+        <p class="slide-description-center">Your monthly reports</p>
+    
+    </div>
+
+</li>
+
+<li class="carousel_slide">
+    <img src="/DP_Process/assets/images/Week5/lf-11-feb-report.jpg" height="350px" alt="" />
+    
+    <div>
+
+        <p class="slide-description-center">Your February Report</p>
+    
+    </div>
+
+</li>
+
+
+</ul>
+
+</div>
+
+<div class="carousel_nav">
+    <button class="carousel_indicator currentSlide"></button>
+    <button class="carousel_indicator"></button>
+    <button class="carousel_indicator"></button>
+    <button class="carousel_indicator"></button>
+     <button class="carousel_indicator"></button>
+    <button class="carousel_indicator"></button>
+    <button class="carousel_indicator"></button>
+    <button class="carousel_indicator"></button>
+     <button class="carousel_indicator"></button>
+    <button class="carousel_indicator"></button>
+    <button class="carousel_indicator"></button>
+
+</div>
+
+<button class="carousel_button carousel_button-right">&gt;
+</button>
+
+</div>
+    
+</section>
+
+<section id="four" class="section">
+    <h2>High Fidelity Prototype</h2>
+    <p>As I moved onto my high fidelity prototype, I took learnings from conducting the experience with my friends into account.</p>
+    <ul>
+        <li>Allow more than one mood for each moment</li>
+        <li>Include short descriptions for each moment</li>
+    </ul>
+
+</section>
+
+</div>
+
+:ET
