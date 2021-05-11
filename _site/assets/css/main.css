@@ -14,7 +14,9 @@ footer { margin-top: 64px; padding: 16px; display: flex; justify-content: center
 
 p { margin: 0px; padding-bottom: 16px; }
 
-h3 { font-family: "Space Mono", monospace; margin: 0px; padding-bottom: 8px; font-weight: bold; font-size: 20px; }
+h3 { font-family: "Space Mono", monospace; margin-top: 24px; padding-bottom: 8px; font-weight: bold; font-size: 20px; }
+
+h4 { margin-top: 12px; margin-bottom: 8px; }
 
 a { text-decoration: none; color: #0D0630; }
 

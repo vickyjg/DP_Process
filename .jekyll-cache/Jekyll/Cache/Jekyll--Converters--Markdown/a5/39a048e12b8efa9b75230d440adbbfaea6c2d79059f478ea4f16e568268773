@@ -1,102 +1,4 @@
-<!doctype html>
-<html>
-
-   <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Build: Poster, Video Abstract & Presentation Process</title>
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&family=Space+Grotesk:wght@400;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-        <link rel="shortcut icon" href="/DP_Process/assets/images/favicon.png">
-    
-        <link rel="stylesheet"  href="/DP_Process/assets/css/main.css">
-    
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    
-</head>
-    
-    <body>
-        
-        <!-- logo --> 
-
-
-    <nav>
-        
-        <div id="site-logo-container"><a class="site-logo" href="/DP_Process">*</a></div>
-
-        <h1 class="site-title"><a href="/DP_Process">Data Bonds</a></h1>
-        
-        <div><a class="site-logo" href="http://localhost:4000"></a></div>
-
-
-    
-<!--
-        <div id="nav-link-div">
-            <a href="http://localhost:4000" class="nav-link">LOGS</a>
-            <a href="  " class="nav-link">INFO</a>
-        </div>
--->
-
-
-    </nav>
-
-
-        
-        <!--  Back to top Button-->
-        <a id="button">^<p>TOP</p></a>
-
-        
-        <div class="content-wrapper">
-            
-            <div id="project-article-top-row">
-                
-                <section>
-                    <p class=article-top-row-text>phase</p>
-
-                    <p class="article-top-row-data">6</p>  
-                </section>
-                
-                <section>
-                    <p class=article-top-row-text>published</p>
-    
-                    <p class="article-top-row-data">TBA</p>
-                </section>
-                
-                
-            </div>
-            
-            
-            <h1 class="project-title">Build: Poster, Video Abstract & Presentation Process</h1>
-
-            <p class="project-subhead"></p>
-
-            
-            
-    <img class="feat-img" src="/DP_Process/assets/images/Week6_featImg.jpg" alt="image representing a theme in this article" />
-    <figcaption class="feat-img-caption"></figcaption>
-
-
-    <!--        <img class="splash-image" src=" %Week6_featImg.jpg% " >-->
-
-    <!--
-             call the featured-post-image.html template file 
-            
-    <img class="feat-img" src="/DP_Process/assets/images/Week6_featImg.jpg" alt="image representing a theme in this article" />
-    <figcaption class="feat-img-caption"></figcaption>
-
-    -->
-            
-            
-            <div class="article-under-image">
-                
-                
-                
-                
-                
-                    
-                    <nav class="article-nav">
+I"ù<nav class="article-nav">
     <ul class="sidebar-info">
         <li><a class="scroll-link" href="#one" data-element-id="one">Intro</a></li>
         <li><a class="scroll-link" href="#two" data-element-id="two">Poster</a></li>
@@ -141,8 +43,7 @@
     <p>This project focused on moments that happened to individuals when they were apart from their circles. When we start gathering again and have those shared moments, how might that be visualized? What types of information would be essential to record for shared moments?</p>
     
     <b>What information can be automatically collected by your device versus more consciously inputted by the individual?</b>
-    <p>This question really speaks to the balance of letting the individual (or user) decide versus an algorithm. In the In Sync app, the pieces of information that were automatically collected by the device included the time and location. The information that was inputted by the user was more subjective to the individual.</p>
-    <p>I think this balance is important, especially giving users the power to record things as they preceive. For example, rather than having an algorithm examine your moments' description to try to draw out your mood. You should be able to express and input how you felt. By doing this, I think it helps retain the empathetic parts of the data. Vice versa, for more objective pieces of information like time and location, those things computers can better pick up on. I would like to figure out what other pieces of information the device can pick up on to help enrich the narrative of the moment without putting more effort on the user to log those pieces of information.</p>
+    <p>This question really speaks to the balance of letting the individual (or user) decide versus an algorithm. In the In Sync app, the pieces of information that were automatically collected by the device included the time and location. The information that was inputted by the user was more subjective to the individual. I think this balance is important, especially giving users the power to record things as they preceive. For example, rather than having an algorithm examine </p>
     
     <h3>Key Takeways</h3>
     <b>Technology as facilitators of connections</b>
@@ -154,50 +55,4 @@
 </section>
 
 </div>
-
-                
-                
-                
-               
-            
-            
-            </div>
-            
-            
-
-        </div>
-        
-        <div class="post-nav">
-    
-    <div class="post-nav-previous">
-         
-         <p class="article-top-row-text">&laquo;&nbsp;previous phase</p>
-         <a href="/DP_Process/project-5/">Build: Based on Researching and Testing</a>
-            
-     </div>
-    
-    <div class="post-nav-next">
-            
-    </div>
-        
-
- 
-    
-</div>
-        
-        <footer>
-
-    <p>Vicky Jiang * 2021 * Massachusetts College of Art and Design</p>
-
-
-
-</footer>
-        
-         <script src="/DP_Process/assets/index.js"></script>
-    
-    </body>
-
-    
-
-</html>
-
+:ET

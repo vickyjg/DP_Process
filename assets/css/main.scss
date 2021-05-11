@@ -130,10 +130,15 @@ p{
 
 h3{
     font-family: $tertiary-font, monospace;
-    margin: 0px;
+    margin-top: 24px;
     padding-bottom: 8px;
     font-weight: bold;
     font-size: 20px;
+}
+
+h4{
+    margin-top: 12px;
+    margin-bottom: 8px;
 }
 
 a {
