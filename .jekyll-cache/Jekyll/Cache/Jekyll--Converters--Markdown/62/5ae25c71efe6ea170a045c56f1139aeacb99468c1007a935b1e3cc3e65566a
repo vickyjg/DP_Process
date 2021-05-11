@@ -1,21 +1,4 @@
----
-
-layout: project
-week: 2
-written-date: February 16, 2021
-title: "Research: Context & Audience"
-featured-image: Week2_featImg.jpg
-featured-image-alt: "A collection of images connect with dots and lines"
-
-subhead: I hone in on my goals and audience for the project by analyzing my inspirations and personal experience.
-
-splash-image: Week2_featImg.jpg
-featured-image-caption: "Images from the pandemic overlayed with visuals from my research work"
-
-
----
-
-<nav class="article-nav">
+I"<nav class="article-nav">
   <ul class="sidebar-info">
     <li><a class="scroll-link" href="#one" data-element-id="one">Intro</a></li>
     <li><a class="scroll-link" href="#two" data-element-id="two">Revised Question</a></li>
@@ -78,9 +61,11 @@ featured-image-caption: "Images from the pandemic overlayed with visuals from my
 <section id="five" class="section">
 <h2>Scope</h2>
 
-<img src="{{ site.baseurl }}/assets/images/Week3/ScopeDiagram.png" alt="" width=600px />
+<img src="/DP_Process/assets/images/Week3/ScopeDiagram.png" alt="" width="600px" />
 <figcaption>Scope diagram with accessibility and insight level axes</figcaption>
 
 <p>We are aiming for accessible and deep insights. By accessible, I mean it makes data easier to comprehend and interact with for a wider audience who may not be experienced in it. Deep insights can be defined as pieces of information that the audience finds valuable in knowing about a person and can foster a connection between people.</p>
 
 </section>
+</div>
+:ET

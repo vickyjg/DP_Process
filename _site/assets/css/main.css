@@ -73,7 +73,9 @@ https://codepen.io/matthewcain/pen/ZepbeR
 /* HOME PAGE */
 #update-date { margin-top: 6px; font-family: "EB Garamond", serif; font-size: 16px; }
 
-h2 { margin: 0px; font-size: 32px; line-height: 40px; }
+h2.proj-header { margin: 0px; font-size: 32px; line-height: 40px; padding: 0px; }
+
+h2 { margin: 0px; font-size: 32px; line-height: 40px; padding-top: 32px; padding-bottom: 24px; }
 
 ol { line-height: 1.5em; }
 
@@ -97,7 +99,7 @@ div#progress-bar { margin-top: 50px; }
 
 .bar { height: 100%; width: 100%; background: #F8F5FA; flex: 1; }
 
-.color { height: 100%; width: 90%; /* Change progress % here */ background: #907AD6; animation: 3s ease-out 0s 1 expand; }
+.color { height: 100%; width: 100%; /* Change progress % here */ background: #907AD6; animation: 3s ease-out 0s 1 expand; }
 
 .percent { min-width: 20px; font-size: 20px; display: flex; margin-left: 15px; align-items: center; font-weight: 700; }
 
@@ -129,9 +131,9 @@ p.article-top-row-data { font-family: "Space Mono", monospace; font-size: 16px; 
 
 img.thumbnail-feat-img { height: 160px; object-fit: cover; }
 
-h1.project-title { margin-top: 36px; margin-bottom: 0px; font-size: 36px; }
+h1.project-title { margin-top: 36px; margin-bottom: 0px; font-size: 36px; padding: 0px; }
 
-h2.article { padding-top: 36px; padding-bottom: 24px; }
+h2.article { padding-top: 36px; padding-bottom: 32px; }
 
 p.project-subhead { font-family: "EB Garamond", serif; font-size: 18px; }
 
@@ -164,9 +166,9 @@ div#info-page { padding-left: 100px; padding-right: 100px; }
 p#research-q { padding-top: 32px; padding-bottom: 32px; font-family: "EB Garamond", serif; font-size: 32px; line-height: 40px; }
 
 /* PROJECT SPECIFIC FEATURES */
-div.white-box, div.side-by-side-change { border-radius: 20px; padding: 20px; background-color: white; margin-top: 12px; margin-bottom: 24px; font-family: "EB Garamond", serif; }
+div.white-box, div.side-by-side-change { border-radius: 20px; padding: 32px; background-color: white; margin-top: 12px; margin-bottom: 24px; font-family: "EB Garamond", serif; }
 
-div.two-columns { display: flex; justify-content: space-between; }
+div.two-columns { display: grid; grid-gap: 12px; grid-template-columns: 1fr 1fr; }
 
 div.two-columns > img { width: 48%; }
 

@@ -71,7 +71,7 @@ $shadow-color: #C2B2B4;
 
 $page-side-margin: 200px;
 $nav-side-margin: 50px;
-$percent: 90%;
+$percent: 100%;
 
 
 /* @import "main"; */
@@ -317,10 +317,21 @@ https://codepen.io/matthewcain/pen/ZepbeR
     
 }
 
+
+h2.proj-header{
+    margin: 0px;
+    font-size: 32px;
+    line-height: 40px;
+    padding: 0px;
+}
+
+
 h2{
     margin: 0px;
     font-size: 32px;
     line-height: 40px;
+    padding-top: 32px;
+    padding-bottom: 24px;
 }
 
 ol{
@@ -494,12 +505,13 @@ h1.project-title{
     margin-top: 36px;
     margin-bottom: 0px;
     font-size: 36px;
+    padding: 0px;
     
 }
 
 h2.article{
     padding-top: 36px;
-    padding-bottom: 24px;
+    padding-bottom: 32px;
 }
 
 p.project-subhead{
@@ -618,7 +630,7 @@ p#research-q{
 /* PROJECT SPECIFIC FEATURES */
 div.white-box, div.side-by-side-change{
     border-radius: 20px;
-    padding: 20px;
+    padding: 32px;
     background-color: white;
     margin-top: 12px;
     margin-bottom: 24px;
@@ -626,8 +638,11 @@ div.white-box, div.side-by-side-change{
 }
 
 div.two-columns{
-    display: flex;
-    justify-content: space-between;
+//    display: flex;
+//    justify-content: space-between;
+    display: grid;
+    grid-gap: 12px;
+    grid-template-columns: 1fr 1fr;
 }
 
 div.two-columns > img{
