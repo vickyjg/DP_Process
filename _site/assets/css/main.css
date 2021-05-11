@@ -180,6 +180,8 @@ p.side-by-side-change-component { padding-right: 20px; }
 
 div.proj-white-box { background-color: white; padding: 24px; display: grid; grid-gap: 12px; font-weight: bold; }
 
+div.lf-grid { display: grid; grid-auto-rows: 1fr 1fr 1fr; grid-template-columns: 1fr 1fr 1fr; grid-gap: 12px; }
+
 span.italic-serif { font-family: "EB Garamond", serif; font-style: italic; font-weight: lighter; }
 
 /* Carousel Slideshow 

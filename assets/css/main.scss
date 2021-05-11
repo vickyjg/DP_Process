@@ -659,6 +659,7 @@ div.side-by-side-change{
     justify-content: space-between;
 }
 
+
 p.side-by-side-change-component{
     padding-right: 20px;
 }
@@ -669,6 +670,13 @@ div.proj-white-box{
     display: grid;
     grid-gap: 12px;
     font-weight: bold;
+}
+
+div.lf-grid{
+    display: grid;
+    grid-auto-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 12px;
 }
 
 
