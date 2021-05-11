@@ -1,19 +1,4 @@
----
-
-layout: project
-week: 5
-written-date: April 20, 2021
-title: "Build: Based on Researching and Testing" 
-subhead: Transferring the experience informed by earlier prototyping into a high fidelity app.
-
-featured-image: Week5_featImg.jpg
-featured-image-alt: 
-
-splash-image: Week5_featImg.jpg
-
----
-
-<nav class="article-nav">
+I"|<nav class="article-nav">
     <ul class="sidebar-info">
         <li><a class="scroll-link" href="#one" data-element-id="one">Intro</a></li>
         <li><a class="scroll-link" href="#two" data-element-id="two">Site Map</a></li>
@@ -39,7 +24,7 @@ splash-image: Week5_featImg.jpg
 
 <section id="two" class="section">
 
-<h2 class="article" >Site Map</h2>
+<h2 class="article">Site Map</h2>
 <p>The main experiences the app would need included:</p>
 <ul>
 <li>inputting data for a moment and outputting the visualization</li>
@@ -49,7 +34,7 @@ splash-image: Week5_featImg.jpg
 
     </ul>
     
-    <img src="{{ site.baseurl }}/assets/images/Week4/site-map.png" alt=""/>
+    <img src="/DP_Process/assets/images/Week4/site-map.png" alt="" />
 <figcaption>Site map for app with different pages and features</figcaption>
 
 </section>
@@ -60,7 +45,7 @@ splash-image: Week5_featImg.jpg
 based on Kevin Powell's tutorial: https://www.youtube.com/watch?v=VYsVOamdB0g */-->
 
 <div class="carousel">
-     <button class="carousel_button  carousel_button-left"><
+     <button class="carousel_button  carousel_button-left">&lt;
 </button>
 
 
@@ -68,7 +53,7 @@ based on Kevin Powell's tutorial: https://www.youtube.com/watch?v=VYsVOamdB0g */
     <ul class="carousel_track">
 
 <li class="carousel_slide currentSlide">
-    <img src="{{ site.baseurl }}/assets/images/Week5/lf-1-home.jpg" height=350px alt=""/>
+    <img src="/DP_Process/assets/images/Week5/lf-1-home.jpg" height="350px" alt="" />
     
     <div>
         <p class="slide-description-center">Home page</p>
@@ -79,7 +64,7 @@ based on Kevin Powell's tutorial: https://www.youtube.com/watch?v=VYsVOamdB0g */
 
 
 <li class="carousel_slide">
-    <img src="{{ site.baseurl }}/assets/images/Week5/lf-2-board.jpg" height=350px alt=""/>
+    <img src="/DP_Process/assets/images/Week5/lf-2-board.jpg" height="350px" alt="" />
     
     <div>
         <p class="slide-description-center">Your weekly board</p>
@@ -89,7 +74,7 @@ based on Kevin Powell's tutorial: https://www.youtube.com/watch?v=VYsVOamdB0g */
 
 
 <li class="carousel_slide">
- <img src="{{ site.baseurl }}/assets/images/Week5/lf-3-board-selected.jpg" height=350px alt=""/>
+ <img src="/DP_Process/assets/images/Week5/lf-3-board-selected.jpg" height="350px" alt="" />
     
     <div>
 
@@ -100,7 +85,7 @@ based on Kevin Powell's tutorial: https://www.youtube.com/watch?v=VYsVOamdB0g */
 </li>
 
 <li class="carousel_slide">
-    <img src="{{ site.baseurl }}/assets/images/Week5/lf-4-board-summary.jpg" height=350px alt=""/>
+    <img src="/DP_Process/assets/images/Week5/lf-4-board-summary.jpg" height="350px" alt="" />
     
     <div>
 
@@ -111,7 +96,7 @@ based on Kevin Powell's tutorial: https://www.youtube.com/watch?v=VYsVOamdB0g */
 </li>
 
 <li class="carousel_slide">
-    <img src="{{ site.baseurl }}/assets/images/Week5/lf-5-my-circle.jpg" height=350px alt=""/>
+    <img src="/DP_Process/assets/images/Week5/lf-5-my-circle.jpg" height="350px" alt="" />
     
     <div>
         <p class="slide-description-center">My circles page</p>
@@ -122,7 +107,7 @@ based on Kevin Powell's tutorial: https://www.youtube.com/watch?v=VYsVOamdB0g */
 
 
 <li class="carousel_slide">
-    <img src="{{ site.baseurl }}/assets/images/Week5/lf-6-week-shared.jpg" height=350px alt=""/>
+    <img src="/DP_Process/assets/images/Week5/lf-6-week-shared.jpg" height="350px" alt="" />
     
     <div>
 
@@ -133,7 +118,7 @@ based on Kevin Powell's tutorial: https://www.youtube.com/watch?v=VYsVOamdB0g */
 </li>
 
 <li class="carousel_slide">
-    <img src="{{ site.baseurl }}/assets/images/Week5/lf-7-create-moment.jpg" height=350px alt=""/>
+    <img src="/DP_Process/assets/images/Week5/lf-7-create-moment.jpg" height="350px" alt="" />
     
     <div>
     
@@ -144,7 +129,7 @@ based on Kevin Powell's tutorial: https://www.youtube.com/watch?v=VYsVOamdB0g */
 </li>
 
 <li class="carousel_slide">
-    <img src="{{ site.baseurl }}/assets/images/Week5/lf-8-custom-moment.jpg" height=350px alt=""/>
+    <img src="/DP_Process/assets/images/Week5/lf-8-custom-moment.jpg" height="350px" alt="" />
     
     <div>
     
@@ -155,7 +140,7 @@ based on Kevin Powell's tutorial: https://www.youtube.com/watch?v=VYsVOamdB0g */
 </li>
 
 <li class="carousel_slide">
-    <img src="{{ site.baseurl }}/assets/images/Week5/lf-9-profile.jpg" height=350px alt=""/>
+    <img src="/DP_Process/assets/images/Week5/lf-9-profile.jpg" height="350px" alt="" />
     
     <div>
         <p class="slide-description-center">Your profile</p>
@@ -165,7 +150,7 @@ based on Kevin Powell's tutorial: https://www.youtube.com/watch?v=VYsVOamdB0g */
 </li>
 
 <li class="carousel_slide">
-    <img src="{{ site.baseurl }}/assets/images/Week5/lf-10-profile-report.jpg" height=350px alt=""/>
+    <img src="/DP_Process/assets/images/Week5/lf-10-profile-report.jpg" height="350px" alt="" />
     
     <div>
 
@@ -176,7 +161,7 @@ based on Kevin Powell's tutorial: https://www.youtube.com/watch?v=VYsVOamdB0g */
 </li>
 
 <li class="carousel_slide">
-    <img src="{{ site.baseurl }}/assets/images/Week5/lf-11-feb-report.jpg" height=350px alt=""/>
+    <img src="/DP_Process/assets/images/Week5/lf-11-feb-report.jpg" height="350px" alt="" />
     
     <div>
 
@@ -206,7 +191,7 @@ based on Kevin Powell's tutorial: https://www.youtube.com/watch?v=VYsVOamdB0g */
 
 </div>
 
-<button class="carousel_button carousel_button-right">>
+<button class="carousel_button carousel_button-right">&gt;
 </button>
 
 </div>
@@ -220,20 +205,9 @@ based on Kevin Powell's tutorial: https://www.youtube.com/watch?v=VYsVOamdB0g */
         <li>Allow more than one mood for each moment</li>
         <li>Include short descriptions for each moment</li>
     </ul>
-    
-    <h3>Introducing In Sync the App</h3>
-    <p>In Sync is the app version of the experience I prototyped with my circle, except a lot more streamlined thanks to its technological capabilities. It will allow individuals to log their visualized moments onto their weekly boards. They can view their friends' boards throughout the week and create group boards where their moments are compiled. These group boards hope to give an overall sense of how your circles' week have been going collectively. The app will keep a record of your weekly boards as well as pulling up highlighted moments for each month.</p>
-    
-    <h3>Why In Sync? And not Data Bonds?</h3>
-    <p>You may be wondering why the app was not named Data Bonds, after the degree project title.</p>
-    
-    <div class="white-box">
-    In Sync is the catalyst for Data Bonds
-    </div>
-    
-    <p>Data bonds are the connections, communication and conversations that are facilitated by In Sync. For example, you may notice that your friend just logged a significant happy news moment. You may be super curious and want to know more details so you text or call them later in the day about it. That text or call where you and your friend discuss that happy news is the Data Bond.</p>
 
 </section>
 
 </div>
-    
+
+:ET

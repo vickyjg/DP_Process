@@ -1,4 +1,4 @@
-I"I<nav class="article-nav">
+I"w<nav class="article-nav">
     <ul class="sidebar-info">
         <li><a class="scroll-link" href="#one" data-element-id="one">Intro</a></li>
         <li><a class="scroll-link" href="#two" data-element-id="two">Site Map</a></li>
@@ -11,11 +11,13 @@
 <div class="article-content">
 
 <section id="one" class="section">
-    <p>Based on the experience I prototyped with my friends, I converted the experience to a site map, low fidelity prototype and high fidelity prototype.</p>
+    <p>Based on the experience I prototyped with my friends, I converted the experience to a site map, low fidelity prototype and high fidelity prototype for the app.</p>
     
     <h3>Final Statement (Job to be Done)</h3>
     
+    <div class="white-box">
     <p>To discover more about myself and my inner circle, I will track our lives using moments for a week.</p>
+    </div>
     
     
 </section>
@@ -203,6 +205,9 @@ based on Kevin Powell's tutorial: https://www.youtube.com/watch?v=VYsVOamdB0g */
         <li>Allow more than one mood for each moment</li>
         <li>Include short descriptions for each moment</li>
     </ul>
+    
+    <h3>Introducing In Sync the App</h3>
+    <p>In Sync is the app version of the experience I prototyped with my circle, except a lot more streamlined thanks to its technological capabilities. It will allow individuals to log their visualized moments onto their weekly boards. They can view their friends' boards throughout the week and create group boards where their moments are compiled. These group boards hope to give an overall sense of how your circles' week have been going collectively. </p>
 
 </section>
 

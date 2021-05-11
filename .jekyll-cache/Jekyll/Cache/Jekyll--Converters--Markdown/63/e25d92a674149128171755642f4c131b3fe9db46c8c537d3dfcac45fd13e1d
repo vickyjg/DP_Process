@@ -1,4 +1,4 @@
-I"ù<nav class="article-nav">
+I"<nav class="article-nav">
     <ul class="sidebar-info">
         <li><a class="scroll-link" href="#one" data-element-id="one">Intro</a></li>
         <li><a class="scroll-link" href="#two" data-element-id="two">Poster</a></li>
@@ -42,8 +42,9 @@
     <b>&gt; What does a shared moment look like?</b>
     <p>This project focused on moments that happened to individuals when they were apart from their circles. When we start gathering again and have those shared moments, how might that be visualized? What types of information would be essential to record for shared moments?</p>
     
-    <b>What information can be automatically collected by your device versus more consciously inputted by the individual?</b>
-    <p>This question really speaks to the balance of letting the individual (or user) decide versus an algorithm. In the In Sync app, the pieces of information that were automatically collected by the device included the time and location. The information that was inputted by the user was more subjective to the individual. I think this balance is important, especially giving users the power to record things as they preceive. For example, rather than having an algorithm examine </p>
+    <b>&gt; What information can be automatically collected by your device versus more consciously inputted by the individual?</b>
+    <p>This question really speaks to the balance of letting the individual (or user) decide versus an algorithm. In the In Sync app, the pieces of information that were automatically collected by the device included the time and location. The information that was inputted by the user was more subjective to the individual.</p>
+    <p>I think this balance is important, especially giving users the power to record things as they preceive. For example, rather than having an algorithm examine your moments' description to try to draw out your mood. You should be able to express and input how you felt. By doing this, I think it helps retain the empathetic parts of the data. Vice versa, for more objective pieces of information like time and location, those things computers can better pick up on. I would like to figure out what other pieces of information the device can pick up on to help enrich the narrative of the moment without putting more effort on the user to log those pieces of information.</p>
     
     <h3>Key Takeways</h3>
     <b>Technology as facilitators of connections</b>
